@@ -1,24 +1,75 @@
 <!DOCTYPE html>
-<html>
-<head><title>Blood Centre Coverage Maps</title></head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blood Centre Coverage Maps</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    a {
+      text-decoration: none;
+      color: #007acc;
+      font-weight: bold;
+    }
+    .tag {
+      display: inline-block;
+      background: #eee;
+      border-radius: 6px;
+      padding: 2px 8px;
+      font-size: 0.85rem;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
 <body>
-<h1>📍 Interactive Blood Centre Maps</h1>
-<ul>
-  <li><a href="map_coverage_T30_p6.html">T = 30, p = 6</a></li>
-  <li><a href="map_coverage_T30_p7.html">T = 30, p = 7</a></li>
-  <li><a href="map_coverage_T30_p8.html">T = 30, p = 8</a></li>
-  <li><a href="map_coverage_T30_p9.html">T = 30, p = 9</a></li>
-  <li><a href="map_coverage_T30_p10.html">T = 30, p = 10</a></li>
-  <li><a href="map_coverage_T45_p6.html">T = 45, p = 6</a></li>
-  <li><a href="map_coverage_T45_p7.html">T = 45, p = 7</a></li>
-  <li><a href="map_coverage_T45_p8.html">T = 45, p = 8</a></li>
-  <li><a href="map_coverage_T45_p9.html">T = 45, p = 9</a></li>
-  <li><a href="map_coverage_T45_p10.html">T = 45, p = 10</a></li>
-  <li><a href="map_coverage_T60_p6.html">T = 60, p = 6</a></li>
-  <li><a href="map_coverage_T60_p7.html">T = 60, p = 7</a></li>
-  <li><a href="map_coverage_T60_p8.html">T = 60, p = 8</a></li>
-  <li><a href="map_coverage_T60_p9.html">T = 60, p = 9</a></li>
-  <li><a href="map_coverage_T60_p10.html">T = 60, p = 10</a></li>
-</ul>
+
+  <h1>🩸 Blood Centre Coverage Maps</h1>
+
+  <div class="grid">
+    <div class="card"><a href="map_coverage_T30_p6.html">View Map</a><div class="tag">T = 30, p = 6</div></div>
+    <div class="card"><a href="map_coverage_T30_p7.html">View Map</a><div class="tag">T = 30, p = 7</div></div>
+    <div class="card"><a href="map_coverage_T30_p8.html">View Map</a><div class="tag">T = 30, p = 8</div></div>
+    <div class="card"><a href="map_coverage_T30_p9.html">View Map</a><div class="tag">T = 30, p = 9</div></div>
+    <div class="card"><a href="map_coverage_T30_p10.html">View Map</a><div class="tag">T = 30, p = 10</div></div>
+
+    <div class="card"><a href="map_coverage_T45_p6.html">View Map</a><div class="tag">T = 45, p = 6</div></div>
+    <div class="card"><a href="map_coverage_T45_p7.html">View Map</a><div class="tag">T = 45, p = 7</div></div>
+    <div class="card"><a href="map_coverage_T45_p8.html">View Map</a><div class="tag">T = 45, p = 8</div></div>
+    <div class="card"><a href="map_coverage_T45_p9.html">View Map</a><div class="tag">T = 45, p = 9</div></div>
+    <div class="card"><a href="map_coverage_T45_p10.html">View Map</a><div class="tag">T = 45, p = 10</div></div>
+
+    <div class="card"><a href="map_coverage_T60_p6.html">View Map</a><div class="tag">T = 60, p = 6</div></div>
+    <div class="card"><a href="map_coverage_T60_p7.html">View Map</a><div class="tag">T = 60, p = 7</div></div>
+    <div class="card"><a href="map_coverage_T60_p8.html">View Map</a><div class="tag">T = 60, p = 8</div></div>
+    <div class="card"><a href="map_coverage_T60_p9.html">View Map</a><div class="tag">T = 60, p = 9</div></div>
+    <div class="card"><a href="map_coverage_T60_p10.html">View Map</a><div class="tag">T = 60, p = 10</div></div>
+  </div>
+
 </body>
 </html>
+
