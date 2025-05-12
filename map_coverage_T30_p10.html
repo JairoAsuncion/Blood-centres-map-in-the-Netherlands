@@ -1,0 +1,3180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a28fcf6d3e95ea972e40a866376514c8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a28fcf6d3e95ea972e40a866376514c8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a28fcf6d3e95ea972e40a866376514c8 = L.map(
+                "map_a28fcf6d3e95ea972e40a866376514c8",
+                {
+                    center: [52.133303285454545, 5.332065900170504],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b6cf34f3dd4cf5e664cb6fd456c09040 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b6cf34f3dd4cf5e664cb6fd456c09040.addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_61488d95208e7a5aea93c3c23d5edb9d = L.circleMarker(
+                [51.4847355, 3.9071113],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_eeae31bfe1356a45dbd2bbd0d9bbfc72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66106ddc8ca7cb8dd9dd117ed90ef0e5 = $(`<div id="html_66106ddc8ca7cb8dd9dd117ed90ef0e5" style="width: 100.0%; height: 100.0%;">Uncovered: ADMIRAAL DE RUYTER ZIEKENHUIS</div>`)[0];
+                popup_eeae31bfe1356a45dbd2bbd0d9bbfc72.setContent(html_66106ddc8ca7cb8dd9dd117ed90ef0e5);
+            
+        
+
+        circle_marker_61488d95208e7a5aea93c3c23d5edb9d.bindPopup(popup_eeae31bfe1356a45dbd2bbd0d9bbfc72)
+        ;
+
+        
+    
+    
+            var circle_marker_95b23ffd76aa3510a7e3564a0ba1537b = L.circleMarker(
+                [51.7919889, 4.6824056],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_8d08d47a44fd15219084522fe2be2738 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b55c1799c111cd38b5a536dd3f6c525 = $(`<div id="html_2b55c1799c111cd38b5a536dd3f6c525" style="width: 100.0%; height: 100.0%;">Covered: ALBERT SCHWEITZER ZIEKENHUIS (DORDWIJK)</div>`)[0];
+                popup_8d08d47a44fd15219084522fe2be2738.setContent(html_2b55c1799c111cd38b5a536dd3f6c525);
+            
+        
+
+        circle_marker_95b23ffd76aa3510a7e3564a0ba1537b.bindPopup(popup_8d08d47a44fd15219084522fe2be2738)
+        ;
+
+        
+    
+    
+            var poly_line_e5d329514326f68d1f1f25d097774c43 = L.polyline(
+                [[51.7919889, 4.6824056], [51.9422583, 4.4623693]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_6e903fb6e3241d9555682445c357ffde = L.circleMarker(
+                [51.827139, 4.6295742],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_eedd533ffd17fff1c4b4cc44fdcd79cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45d73c61e6efbacbdc3736e19ca0e36b = $(`<div id="html_45d73c61e6efbacbdc3736e19ca0e36b" style="width: 100.0%; height: 100.0%;">Covered: ALBERT SCHWEITZER ZIEKENHUIS (ZWIJNDRECHT)</div>`)[0];
+                popup_eedd533ffd17fff1c4b4cc44fdcd79cf.setContent(html_45d73c61e6efbacbdc3736e19ca0e36b);
+            
+        
+
+        circle_marker_6e903fb6e3241d9555682445c357ffde.bindPopup(popup_eedd533ffd17fff1c4b4cc44fdcd79cf)
+        ;
+
+        
+    
+    
+            var poly_line_da4d5335a8b99de9863e5360ae5dd710 = L.polyline(
+                [[51.827139, 4.6295742], [51.9422583, 4.4623693]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var marker_d9f38eb8e3c7a4434bfdf568c5822448 = L.marker(
+                [51.5740572, 4.76293677249866],
+                {
+}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var icon_b7fc614e818b72c617bc18d7454d423f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_218f277b6c1ae65615959ca1f509d7c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2588f30bb1233d4ef9deddd1d7bb6f81 = $(`<div id="html_2588f30bb1233d4ef9deddd1d7bb6f81" style="width: 100.0%; height: 100.0%;">Blood Center: AMPHIA ZIEKENHUIS (LANGENDIJK)</div>`)[0];
+                popup_218f277b6c1ae65615959ca1f509d7c0.setContent(html_2588f30bb1233d4ef9deddd1d7bb6f81);
+            
+        
+
+        marker_d9f38eb8e3c7a4434bfdf568c5822448.bindPopup(popup_218f277b6c1ae65615959ca1f509d7c0)
+        ;
+
+        
+    
+    
+                marker_d9f38eb8e3c7a4434bfdf568c5822448.setIcon(icon_b7fc614e818b72c617bc18d7454d423f);
+            
+    
+            var circle_marker_921bd890f1f2c03b081048bad4ecab29 = L.circleMarker(
+                [51.5805933, 4.7983511],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_7321c2adcf9c6b76d35eb6c8f1a4f76f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb38cf68217720b4eab8aaedf6924803 = $(`<div id="html_cb38cf68217720b4eab8aaedf6924803" style="width: 100.0%; height: 100.0%;">Covered: AMPHIA ZIEKENHUIS (MOLENGRACHT)</div>`)[0];
+                popup_7321c2adcf9c6b76d35eb6c8f1a4f76f.setContent(html_cb38cf68217720b4eab8aaedf6924803);
+            
+        
+
+        circle_marker_921bd890f1f2c03b081048bad4ecab29.bindPopup(popup_7321c2adcf9c6b76d35eb6c8f1a4f76f)
+        ;
+
+        
+    
+    
+            var poly_line_389790c2229131094eebd4d400be8467 = L.polyline(
+                [[51.5805933, 4.7983511], [51.5740572, 4.76293677249866]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_f052fbcad47c679b39b5ea13b6c5fa93 = L.circleMarker(
+                [51.8386388, 4.9576836],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_f642d926b0245c584e8361c98a8bd449 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5cc7255882ab2c5b157fb274f187720a = $(`<div id="html_5cc7255882ab2c5b157fb274f187720a" style="width: 100.0%; height: 100.0%;">Covered: BEATRIX ZIEKENHUIS</div>`)[0];
+                popup_f642d926b0245c584e8361c98a8bd449.setContent(html_5cc7255882ab2c5b157fb274f187720a);
+            
+        
+
+        circle_marker_f052fbcad47c679b39b5ea13b6c5fa93.bindPopup(popup_f642d926b0245c584e8361c98a8bd449)
+        ;
+
+        
+    
+    
+            var poly_line_7049ce88cd229558bdf9df77ffbac9d5 = L.polyline(
+                [[51.8386388, 4.9576836], [52.0245389, 5.0825088]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_42e2fb20e1317f1e1ce0d2860db2219b = L.circleMarker(
+                [52.10138205, 4.317952162640447],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_198bcd3b768b652ad82785b8046b35b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb720119032f8d905567e2270761924e = $(`<div id="html_fb720119032f8d905567e2270761924e" style="width: 100.0%; height: 100.0%;">Covered: HAAGLANDEN MEDISCH CENTRUM (BRONOVO)</div>`)[0];
+                popup_198bcd3b768b652ad82785b8046b35b5.setContent(html_fb720119032f8d905567e2270761924e);
+            
+        
+
+        circle_marker_42e2fb20e1317f1e1ce0d2860db2219b.bindPopup(popup_198bcd3b768b652ad82785b8046b35b5)
+        ;
+
+        
+    
+    
+            var poly_line_4bd6a70399607ae4352761ebf14c94d4 = L.polyline(
+                [[52.10138205, 4.317952162640447], [52.0925754, 4.3834479]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_c63c43a4ee12c9c6591443ae2196e0d1 = L.circleMarker(
+                [51.52798225, 4.438968300023488],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_30f97aae90fad31d7c379e8361351333 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_242e10183314fc6003b8a096fb0859b0 = $(`<div id="html_242e10183314fc6003b8a096fb0859b0" style="width: 100.0%; height: 100.0%;">Covered: BRAVIS ZIEKENHUIS (ROOSENDAAL)</div>`)[0];
+                popup_30f97aae90fad31d7c379e8361351333.setContent(html_242e10183314fc6003b8a096fb0859b0);
+            
+        
+
+        circle_marker_c63c43a4ee12c9c6591443ae2196e0d1.bindPopup(popup_30f97aae90fad31d7c379e8361351333)
+        ;
+
+        
+    
+    
+            var poly_line_f89251afe87c20131831f058e7899498 = L.polyline(
+                [[51.52798225, 4.438968300023488], [51.5740572, 4.76293677249866]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_6e2fa082f92b96887de2b12fc453ec75 = L.circleMarker(
+                [52.0215477, 4.7069874],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_6e94c36c37a593ef16434e53f0583eeb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49dbd5db937069fe39886001edd0788d = $(`<div id="html_49dbd5db937069fe39886001edd0788d" style="width: 100.0%; height: 100.0%;">Covered: GROENE HART ZIEKENHUIS (BLEULAND)</div>`)[0];
+                popup_6e94c36c37a593ef16434e53f0583eeb.setContent(html_49dbd5db937069fe39886001edd0788d);
+            
+        
+
+        circle_marker_6e2fa082f92b96887de2b12fc453ec75.bindPopup(popup_6e94c36c37a593ef16434e53f0583eeb)
+        ;
+
+        
+    
+    
+            var poly_line_7f93ce694702294c5fd3659ddcec82db = L.polyline(
+                [[52.0215477, 4.7069874], [51.9422583, 4.4623693]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_7150f72ab84558ee36c7c857a9ec157f = L.circleMarker(
+                [52.0482224, 4.2771498],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_4f901c6a9ecb6608af65002739cca687 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9917f0ada2c6623f3fc30bbb13da922d = $(`<div id="html_9917f0ada2c6623f3fc30bbb13da922d" style="width: 100.0%; height: 100.0%;">Covered: HAGA ZIEKENHUIS (LEYWEG)</div>`)[0];
+                popup_4f901c6a9ecb6608af65002739cca687.setContent(html_9917f0ada2c6623f3fc30bbb13da922d);
+            
+        
+
+        circle_marker_7150f72ab84558ee36c7c857a9ec157f.bindPopup(popup_4f901c6a9ecb6608af65002739cca687)
+        ;
+
+        
+    
+    
+            var poly_line_905b9d752686524bb73a899437ef320f = L.polyline(
+                [[52.0482224, 4.2771498], [52.0925754, 4.3834479]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_16d17182ad017fabf20ad174c8af36ba = L.circleMarker(
+                [51.9386958, 4.5628699],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_64c9ace1c1f7d8048c3c7d4ad1b4564c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1623e380852c4346453aa7e436ad27e3 = $(`<div id="html_1623e380852c4346453aa7e436ad27e3" style="width: 100.0%; height: 100.0%;">Covered: IJSSELLAND ZIEKENHUIS</div>`)[0];
+                popup_64c9ace1c1f7d8048c3c7d4ad1b4564c.setContent(html_1623e380852c4346453aa7e436ad27e3);
+            
+        
+
+        circle_marker_16d17182ad017fabf20ad174c8af36ba.bindPopup(popup_64c9ace1c1f7d8048c3c7d4ad1b4564c)
+        ;
+
+        
+    
+    
+            var poly_line_7e4fa91a1f159758bc1fb613eeafeae2 = L.polyline(
+                [[51.9386958, 4.5628699], [51.9422583, 4.4623693]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_09d6ef24679428104617eec3be5d8e32 = L.circleMarker(
+                [51.8863454, 4.4934081],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_86a8bc5b7421da1ae7defc27bfe01cc8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b1e120a70d1bfed2f888e7db0d16514 = $(`<div id="html_9b1e120a70d1bfed2f888e7db0d16514" style="width: 100.0%; height: 100.0%;">Covered: IKAZIA ZIEKENHUIS</div>`)[0];
+                popup_86a8bc5b7421da1ae7defc27bfe01cc8.setContent(html_9b1e120a70d1bfed2f888e7db0d16514);
+            
+        
+
+        circle_marker_09d6ef24679428104617eec3be5d8e32.bindPopup(popup_86a8bc5b7421da1ae7defc27bfe01cc8)
+        ;
+
+        
+    
+    
+            var poly_line_ace957de57363be4470a7fed194d31b1 = L.polyline(
+                [[51.8863454, 4.4934081], [51.9422583, 4.4623693]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_fcfb7e6a8dac2083b848bb314a45fc9d = L.circleMarker(
+                [52.0688776, 4.4996176],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_674eee360e55ef378d9701387b86d93a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78c84632c3532a9f876eeebf748ffef0 = $(`<div id="html_78c84632c3532a9f876eeebf748ffef0" style="width: 100.0%; height: 100.0%;">Covered: HET LANGELAND ZIEKENHUIS</div>`)[0];
+                popup_674eee360e55ef378d9701387b86d93a.setContent(html_78c84632c3532a9f876eeebf748ffef0);
+            
+        
+
+        circle_marker_fcfb7e6a8dac2083b848bb314a45fc9d.bindPopup(popup_674eee360e55ef378d9701387b86d93a)
+        ;
+
+        
+    
+    
+            var poly_line_ac31a9ca35b09acfb2f5684209f9e636 = L.polyline(
+                [[52.0688776, 4.4996176], [52.0925754, 4.3834479]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_de06f182add5f9f1d6901d30e4ea17fc = L.circleMarker(
+                [51.4866813, 4.3146655],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_7eea237463adda089495d06c4f308907 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c5b0f91d559f7bfab7950a3c7c44983 = $(`<div id="html_8c5b0f91d559f7bfab7950a3c7c44983" style="width: 100.0%; height: 100.0%;">Uncovered: BRAVIS ZIEKENHUIS (BERGEN OP ZOOM)</div>`)[0];
+                popup_7eea237463adda089495d06c4f308907.setContent(html_8c5b0f91d559f7bfab7950a3c7c44983);
+            
+        
+
+        circle_marker_de06f182add5f9f1d6901d30e4ea17fc.bindPopup(popup_7eea237463adda089495d06c4f308907)
+        ;
+
+        
+    
+    
+            var circle_marker_fa443984cf32729d887007ef626d3740 = L.circleMarker(
+                [51.87943115, 4.53541036796637],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_8f41ab8daff9c2bbe32412df3ca7ff78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c4927a573754eabc42605cbc9288b21 = $(`<div id="html_5c4927a573754eabc42605cbc9288b21" style="width: 100.0%; height: 100.0%;">Covered: MAASSTAD ZIEKENHUIS</div>`)[0];
+                popup_8f41ab8daff9c2bbe32412df3ca7ff78.setContent(html_5c4927a573754eabc42605cbc9288b21);
+            
+        
+
+        circle_marker_fa443984cf32729d887007ef626d3740.bindPopup(popup_8f41ab8daff9c2bbe32412df3ca7ff78)
+        ;
+
+        
+    
+    
+            var poly_line_a74b1320b82075ebc5b33b2a0dce1241 = L.polyline(
+                [[51.87943115, 4.53541036796637], [51.9422583, 4.4623693]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_cd3071b55f5a6973e73eba7546ead69f = L.circleMarker(
+                [52.1636348, 4.4798877],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_39d4dd9172461a1461bd2c86c543cb6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91d22764a803c91e5dc2be52823c39e5 = $(`<div id="html_91d22764a803c91e5dc2be52823c39e5" style="width: 100.0%; height: 100.0%;">Covered: MILITAIRE BLOEDBANK</div>`)[0];
+                popup_39d4dd9172461a1461bd2c86c543cb6d.setContent(html_91d22764a803c91e5dc2be52823c39e5);
+            
+        
+
+        circle_marker_cd3071b55f5a6973e73eba7546ead69f.bindPopup(popup_39d4dd9172461a1461bd2c86c543cb6d)
+        ;
+
+        
+    
+    
+            var poly_line_137cb6a3915a5799872aa83d8a91f05c = L.polyline(
+                [[52.1636348, 4.4798877], [52.0925754, 4.3834479]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_e53dda3d81619321d0f49e39383bcbb3 = L.circleMarker(
+                [52.07408735, 4.299584206892999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_8601426aadc126f6bf40129843b156fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0c9a95be9811cf66f70e81c20aa5da2 = $(`<div id="html_e0c9a95be9811cf66f70e81c20aa5da2" style="width: 100.0%; height: 100.0%;">Covered: MEDISCH CENTRUM HAAGLANDEN (WESTEINDE)</div>`)[0];
+                popup_8601426aadc126f6bf40129843b156fa.setContent(html_e0c9a95be9811cf66f70e81c20aa5da2);
+            
+        
+
+        circle_marker_e53dda3d81619321d0f49e39383bcbb3.bindPopup(popup_8601426aadc126f6bf40129843b156fa)
+        ;
+
+        
+    
+    
+            var poly_line_9ef6d95141cca45e71b3cc8ce7e2fcb2 = L.polyline(
+                [[52.07408735, 4.299584206892999], [52.0925754, 4.3834479]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_e83a0b5e9e4c9d801f958714b62b6ea4 = L.circleMarker(
+                [51.998136, 4.3375311],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_7af9674fd36487a95d8c9b3b1631882d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b01d0294e96a9d0b8f466c3a15a10ac0 = $(`<div id="html_b01d0294e96a9d0b8f466c3a15a10ac0" style="width: 100.0%; height: 100.0%;">Covered: REINIER DE GRAAF GROEP</div>`)[0];
+                popup_7af9674fd36487a95d8c9b3b1631882d.setContent(html_b01d0294e96a9d0b8f466c3a15a10ac0);
+            
+        
+
+        circle_marker_e83a0b5e9e4c9d801f958714b62b6ea4.bindPopup(popup_7af9674fd36487a95d8c9b3b1631882d)
+        ;
+
+        
+    
+    
+            var poly_line_69f1f2b57adc4a4c586f6f667d53fd97 = L.polyline(
+                [[51.998136, 4.3375311], [52.0925754, 4.3834479]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_a939b991a29def71214f0fc09e997b57 = L.circleMarker(
+                [51.8464646, 4.337413536102007],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_7e0f346efdc5a632cfb68d63dec6ae2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7c09ea8d8fcde7aab0996cc46524efc = $(`<div id="html_c7c09ea8d8fcde7aab0996cc46524efc" style="width: 100.0%; height: 100.0%;">Covered: SPIJKENISSE MEDISCH CENTRUM</div>`)[0];
+                popup_7e0f346efdc5a632cfb68d63dec6ae2c.setContent(html_c7c09ea8d8fcde7aab0996cc46524efc);
+            
+        
+
+        circle_marker_a939b991a29def71214f0fc09e997b57.bindPopup(popup_7e0f346efdc5a632cfb68d63dec6ae2c)
+        ;
+
+        
+    
+    
+            var poly_line_5a3115c9306fe217d50b917443bf3cd6 = L.polyline(
+                [[51.8464646, 4.337413536102007], [51.9422583, 4.4623693]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var marker_9b22b64676bda0aa26f8dc8a1c919f97 = L.marker(
+                [51.9422583, 4.4623693],
+                {
+}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var icon_8d2ba0105bb538f2da209483f20c4ae8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ca9c9472e76ede1377aaf473b7711db1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cfe5f764a97bf713947a11740e5eb3ab = $(`<div id="html_cfe5f764a97bf713947a11740e5eb3ab" style="width: 100.0%; height: 100.0%;">Blood Center: SINT FRANCISCUS GASTHUIS</div>`)[0];
+                popup_ca9c9472e76ede1377aaf473b7711db1.setContent(html_cfe5f764a97bf713947a11740e5eb3ab);
+            
+        
+
+        marker_9b22b64676bda0aa26f8dc8a1c919f97.bindPopup(popup_ca9c9472e76ede1377aaf473b7711db1)
+        ;
+
+        
+    
+    
+                marker_9b22b64676bda0aa26f8dc8a1c919f97.setIcon(icon_8d2ba0105bb538f2da209483f20c4ae8);
+            
+    
+            var circle_marker_d789457d066d13b069807cf0c5fefd55 = L.circleMarker(
+                [51.7503916, 4.1019881],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_023c879459753d4344937c2ea808129d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72ddcd49e9965ff7d1f89f47afe8ff1c = $(`<div id="html_72ddcd49e9965ff7d1f89f47afe8ff1c" style="width: 100.0%; height: 100.0%;">Uncovered: VAN WEEL-BETHESDA ZIEKENHUIS</div>`)[0];
+                popup_023c879459753d4344937c2ea808129d.setContent(html_72ddcd49e9965ff7d1f89f47afe8ff1c);
+            
+        
+
+        circle_marker_d789457d066d13b069807cf0c5fefd55.bindPopup(popup_023c879459753d4344937c2ea808129d)
+        ;
+
+        
+    
+    
+            var circle_marker_c2e69d977d012083c925c434c6c14458 = L.circleMarker(
+                [51.9222764, 4.3799763],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_9df85afcfc2602c8b33d901716323bd2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5344c260ea46ab90399b83daace12eb = $(`<div id="html_f5344c260ea46ab90399b83daace12eb" style="width: 100.0%; height: 100.0%;">Covered: VLIETLAND ZIEKENHUIS</div>`)[0];
+                popup_9df85afcfc2602c8b33d901716323bd2.setContent(html_f5344c260ea46ab90399b83daace12eb);
+            
+        
+
+        circle_marker_c2e69d977d012083c925c434c6c14458.bindPopup(popup_9df85afcfc2602c8b33d901716323bd2)
+        ;
+
+        
+    
+    
+            var poly_line_d828ac0cda156cd75748bc6d0d58c765 = L.polyline(
+                [[51.9222764, 4.3799763], [51.9422583, 4.4623693]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_fba63ac9ff20b84796f7a3db63478f14 = L.circleMarker(
+                [51.3089608, 3.8613584],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_96303ba0c87310b8f96c2da760639c36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc4feff89db23239bc2dd3562d748ab9 = $(`<div id="html_cc4feff89db23239bc2dd3562d748ab9" style="width: 100.0%; height: 100.0%;">Uncovered: STICHTING ZORGSAAM ZIEKENHUIS</div>`)[0];
+                popup_96303ba0c87310b8f96c2da760639c36.setContent(html_cc4feff89db23239bc2dd3562d748ab9);
+            
+        
+
+        circle_marker_fba63ac9ff20b84796f7a3db63478f14.bindPopup(popup_96303ba0c87310b8f96c2da760639c36)
+        ;
+
+        
+    
+    
+            var circle_marker_47e7a92050df4dde3682272324f985f8 = L.circleMarker(
+                [51.9100181, 4.4659629],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_b1d56ea5c62b605538dca955799379d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_680ff761282aaed7b9633fc6923a7563 = $(`<div id="html_680ff761282aaed7b9633fc6923a7563" style="width: 100.0%; height: 100.0%;">Covered: ERASMUS MC</div>`)[0];
+                popup_b1d56ea5c62b605538dca955799379d1.setContent(html_680ff761282aaed7b9633fc6923a7563);
+            
+        
+
+        circle_marker_47e7a92050df4dde3682272324f985f8.bindPopup(popup_b1d56ea5c62b605538dca955799379d1)
+        ;
+
+        
+    
+    
+            var poly_line_5c3809811651573829dfcfc7ef2ffdc9 = L.polyline(
+                [[51.9100181, 4.4659629], [51.9422583, 4.4623693]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_27179cf746151883d2146cb14e4cdadc = L.circleMarker(
+                [52.16630895, 4.477314989716614],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_73566e714ce92e7f97a18d67c5e6a0c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3cbe0ccf1fd6df884ead9a541c4c2a7c = $(`<div id="html_3cbe0ccf1fd6df884ead9a541c4c2a7c" style="width: 100.0%; height: 100.0%;">Covered: LEIDS UNIVERSITAIR MEDISCH CENTRUM</div>`)[0];
+                popup_73566e714ce92e7f97a18d67c5e6a0c6.setContent(html_3cbe0ccf1fd6df884ead9a541c4c2a7c);
+            
+        
+
+        circle_marker_27179cf746151883d2146cb14e4cdadc.bindPopup(popup_73566e714ce92e7f97a18d67c5e6a0c6)
+        ;
+
+        
+    
+    
+            var poly_line_fe3f62ccf0bb66ca122dd8c9bf4c763b = L.polyline(
+                [[52.16630895, 4.477314989716614], [52.0925754, 4.3834479]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_98fbc39e2f69b29c23ae18f8ddaf78cb = L.circleMarker(
+                [52.2924635, 4.956576595884709],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_95d123d1a05b12ede838d6a54e621d28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7e6c4f96279acddac801bdcb8e9caee = $(`<div id="html_a7e6c4f96279acddac801bdcb8e9caee" style="width: 100.0%; height: 100.0%;">Covered: ACADEMISCH MEDISCH CENTRUM</div>`)[0];
+                popup_95d123d1a05b12ede838d6a54e621d28.setContent(html_a7e6c4f96279acddac801bdcb8e9caee);
+            
+        
+
+        circle_marker_98fbc39e2f69b29c23ae18f8ddaf78cb.bindPopup(popup_95d123d1a05b12ede838d6a54e621d28)
+        ;
+
+        
+    
+    
+            var poly_line_d0411c433ab751e76014b4d72f1cd059 = L.polyline(
+                [[52.2924635, 4.956576595884709], [52.4533015, 4.8256885]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_2d9fbf4cfe554ff4247ba654b9ff1534 = L.circleMarker(
+                [52.3494454, 4.8253264],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_b74afd9ab58b6941f3933196ba581007 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcdd82089e440bb3cdebbd4618f48894 = $(`<div id="html_dcdd82089e440bb3cdebbd4618f48894" style="width: 100.0%; height: 100.0%;">Covered: ANTONI VAN LEEUWENHOEK ZIEKENHUIS</div>`)[0];
+                popup_b74afd9ab58b6941f3933196ba581007.setContent(html_dcdd82089e440bb3cdebbd4618f48894);
+            
+        
+
+        circle_marker_2d9fbf4cfe554ff4247ba654b9ff1534.bindPopup(popup_b74afd9ab58b6941f3933196ba581007)
+        ;
+
+        
+    
+    
+            var poly_line_269b20605ab9335985d00dcc1a7d3016 = L.polyline(
+                [[52.3494454, 4.8253264], [52.4533015, 4.8256885]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_20eb0b16dfabebc52e7a1c659670d08e = L.circleMarker(
+                [52.4044488, 4.9222188],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_70be37f5f0c65d2729a99b9d727667d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4eed2620ccc76103530e5b5174a2475e = $(`<div id="html_4eed2620ccc76103530e5b5174a2475e" style="width: 100.0%; height: 100.0%;">Covered: BOVENIJ ZIEKENHUIS</div>`)[0];
+                popup_70be37f5f0c65d2729a99b9d727667d6.setContent(html_4eed2620ccc76103530e5b5174a2475e);
+            
+        
+
+        circle_marker_20eb0b16dfabebc52e7a1c659670d08e.bindPopup(popup_70be37f5f0c65d2729a99b9d727667d6)
+        ;
+
+        
+    
+    
+            var poly_line_151a3e8b5ee1393d2b703256a590138b = L.polyline(
+                [[52.4044488, 4.9222188], [52.4533015, 4.8256885]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_09d541986fc71661e89c86f7d6e15d7f = L.circleMarker(
+                [52.0815591, 5.1382691],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_e53ceabfdac4ae6dd76d14048e1776fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab085a5c0cc336a1653ce6c31b166b7a = $(`<div id="html_ab085a5c0cc336a1653ce6c31b166b7a" style="width: 100.0%; height: 100.0%;">Covered: DIAKONESSENHUIS (UTRECHT)</div>`)[0];
+                popup_e53ceabfdac4ae6dd76d14048e1776fe.setContent(html_ab085a5c0cc336a1653ce6c31b166b7a);
+            
+        
+
+        circle_marker_09d541986fc71661e89c86f7d6e15d7f.bindPopup(popup_e53ceabfdac4ae6dd76d14048e1776fe)
+        ;
+
+        
+    
+    
+            var poly_line_eba4d79b0db76ece7ada698eb9147ef4 = L.polyline(
+                [[52.0815591, 5.1382691], [52.0245389, 5.0825088]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_128a5cb684920165e9b16ddb6fc6fdb8 = L.circleMarker(
+                [52.3692186, 5.2233239],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_ad7e0d6e5c69e4fb1eed3e4ff738ca92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78ddc0c373e2efa0780a8e675404ad45 = $(`<div id="html_78ddc0c373e2efa0780a8e675404ad45" style="width: 100.0%; height: 100.0%;">Uncovered: FLEVO ZIEKENHUIS</div>`)[0];
+                popup_ad7e0d6e5c69e4fb1eed3e4ff738ca92.setContent(html_78ddc0c373e2efa0780a8e675404ad45);
+            
+        
+
+        circle_marker_128a5cb684920165e9b16ddb6fc6fdb8.bindPopup(popup_ad7e0d6e5c69e4fb1eed3e4ff738ca92)
+        ;
+
+        
+    
+    
+            var circle_marker_12b2d95b3be379640f5278688d7c651f = L.circleMarker(
+                [52.9579545, 4.7446114],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_303dd3fdfdbf49dd1fe9c578763c4b77 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2068e18794625b6b1de98ed3837c6335 = $(`<div id="html_2068e18794625b6b1de98ed3837c6335" style="width: 100.0%; height: 100.0%;">Uncovered: NOORDWEST ZIEKENHUISGROEP (DEN HELDER)</div>`)[0];
+                popup_303dd3fdfdbf49dd1fe9c578763c4b77.setContent(html_2068e18794625b6b1de98ed3837c6335);
+            
+        
+
+        circle_marker_12b2d95b3be379640f5278688d7c651f.bindPopup(popup_303dd3fdfdbf49dd1fe9c578763c4b77)
+        ;
+
+        
+    
+    
+            var circle_marker_5a0ba0e471aecd67c7e0cd3308427986 = L.circleMarker(
+                [52.5043943, 5.4766817],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_1804350d55ad8d1b7038abc9168d9be3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26838653c6574b88751fb363a702dd76 = $(`<div id="html_26838653c6574b88751fb363a702dd76" style="width: 100.0%; height: 100.0%;">Uncovered: ST JANSDAL ZIEKENHUIS (LELYSTAD)</div>`)[0];
+                popup_1804350d55ad8d1b7038abc9168d9be3.setContent(html_26838653c6574b88751fb363a702dd76);
+            
+        
+
+        circle_marker_5a0ba0e471aecd67c7e0cd3308427986.bindPopup(popup_1804350d55ad8d1b7038abc9168d9be3)
+        ;
+
+        
+    
+    
+            var circle_marker_288f8541096a80c5eb7bd04c2f7ebdf8 = L.circleMarker(
+                [52.36607345, 4.651996176848152],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_4843a72933bd9bf9a50c477c6a4b2b46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0957036f9a15d6e779c04e1226acd677 = $(`<div id="html_0957036f9a15d6e779c04e1226acd677" style="width: 100.0%; height: 100.0%;">Covered: SPAARNE GASTHUIS (HAARLEM)</div>`)[0];
+                popup_4843a72933bd9bf9a50c477c6a4b2b46.setContent(html_0957036f9a15d6e779c04e1226acd677);
+            
+        
+
+        circle_marker_288f8541096a80c5eb7bd04c2f7ebdf8.bindPopup(popup_4843a72933bd9bf9a50c477c6a4b2b46)
+        ;
+
+        
+    
+    
+            var poly_line_72b0e8b8935fa7b8487b5775eed92a5e = L.polyline(
+                [[52.36607345, 4.651996176848152], [52.4533015, 4.8256885]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_6a1064bedea7263a8ef365c70fdbb214 = L.circleMarker(
+                [52.1392219, 5.3522552],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_670ee41c61748d5a79596b3eca90c65d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94a3841a41207bb4b14ea4b7c149cad3 = $(`<div id="html_94a3841a41207bb4b14ea4b7c149cad3" style="width: 100.0%; height: 100.0%;">Covered: MEANDER MEDISCH CENTRUM</div>`)[0];
+                popup_670ee41c61748d5a79596b3eca90c65d.setContent(html_94a3841a41207bb4b14ea4b7c149cad3);
+            
+        
+
+        circle_marker_6a1064bedea7263a8ef365c70fdbb214.bindPopup(popup_670ee41c61748d5a79596b3eca90c65d)
+        ;
+
+        
+    
+    
+            var poly_line_d3c69189cb8b790e647ac437e1dd4c23 = L.polyline(
+                [[52.1392219, 5.3522552], [52.0245389, 5.0825088]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_10cc0dd1b2544e0272fe93b774e098ad = L.circleMarker(
+                [52.6281005, 4.7371604],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_9115eef7143d82b7da798b141aad1f51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1afc0b52d008f546f2a3131e3d16da5b = $(`<div id="html_1afc0b52d008f546f2a3131e3d16da5b" style="width: 100.0%; height: 100.0%;">Covered: MEDISCH CENTRUM ALKMAAR</div>`)[0];
+                popup_9115eef7143d82b7da798b141aad1f51.setContent(html_1afc0b52d008f546f2a3131e3d16da5b);
+            
+        
+
+        circle_marker_10cc0dd1b2544e0272fe93b774e098ad.bindPopup(popup_9115eef7143d82b7da798b141aad1f51)
+        ;
+
+        
+    
+    
+            var poly_line_c422f9ca758360e440fd94a7ebd7984f = L.polyline(
+                [[52.6281005, 4.7371604], [52.4533015, 4.8256885]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_9a2aacdd98505d6a85adb8fb097e7e5e = L.circleMarker(
+                [52.0915391, 5.2622946],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_a1d551e4f0c194d9e6852d0e0463e5cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8024071016059de5d7c15ce9f3d4a6e = $(`<div id="html_e8024071016059de5d7c15ce9f3d4a6e" style="width: 100.0%; height: 100.0%;">Covered: DIAKONESSENHUIS (ZEIST)</div>`)[0];
+                popup_a1d551e4f0c194d9e6852d0e0463e5cc.setContent(html_e8024071016059de5d7c15ce9f3d4a6e);
+            
+        
+
+        circle_marker_9a2aacdd98505d6a85adb8fb097e7e5e.bindPopup(popup_a1d551e4f0c194d9e6852d0e0463e5cc)
+        ;
+
+        
+    
+    
+            var poly_line_f3ff871307badc89125fa196d7368ded = L.polyline(
+                [[52.0915391, 5.2622946], [52.0245389, 5.0825088]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_8a8484a345a2eda628aeec7c238f65ac = L.circleMarker(
+                [52.3582579, 4.9161619],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_f4331835a4572df45e7bd351e587424e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26c9e4ee7bbf8b6f019b7d8ca7d9af86 = $(`<div id="html_26c9e4ee7bbf8b6f019b7d8ca7d9af86" style="width: 100.0%; height: 100.0%;">Covered: OLVG OOST</div>`)[0];
+                popup_f4331835a4572df45e7bd351e587424e.setContent(html_26c9e4ee7bbf8b6f019b7d8ca7d9af86);
+            
+        
+
+        circle_marker_8a8484a345a2eda628aeec7c238f65ac.bindPopup(popup_f4331835a4572df45e7bd351e587424e)
+        ;
+
+        
+    
+    
+            var poly_line_fc8460baa9116a0729715a0183b2185c = L.polyline(
+                [[52.3582579, 4.9161619], [52.4533015, 4.8256885]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_e477f75ae59c9968cf31402b495f6085 = L.circleMarker(
+                [52.4794618, 4.6507711],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_573c65a2f8ae39799b4b77057d9bba61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21dca61ad3d9c95153e19e424216b8b9 = $(`<div id="html_21dca61ad3d9c95153e19e424216b8b9" style="width: 100.0%; height: 100.0%;">Covered: RODE KRUIS ZIEKENHUIS</div>`)[0];
+                popup_573c65a2f8ae39799b4b77057d9bba61.setContent(html_21dca61ad3d9c95153e19e424216b8b9);
+            
+        
+
+        circle_marker_e477f75ae59c9968cf31402b495f6085.bindPopup(popup_573c65a2f8ae39799b4b77057d9bba61)
+        ;
+
+        
+    
+    
+            var poly_line_8edcb9f1e2abedbc7e43f17a7d1ab879 = L.polyline(
+                [[52.4794618, 4.6507711], [52.4533015, 4.8256885]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_1d62178e6292b1f51da9f9b6cbabc44f = L.circleMarker(
+                [52.3708582, 4.839827005917686],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_ca6a3d2b05a3d2d3345fce317f04c29f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dee4397a1599b42e14f2083cd80b8f4e = $(`<div id="html_dee4397a1599b42e14f2083cd80b8f4e" style="width: 100.0%; height: 100.0%;">Covered: OLVG WEST</div>`)[0];
+                popup_ca6a3d2b05a3d2d3345fce317f04c29f.setContent(html_dee4397a1599b42e14f2083cd80b8f4e);
+            
+        
+
+        circle_marker_1d62178e6292b1f51da9f9b6cbabc44f.bindPopup(popup_ca6a3d2b05a3d2d3345fce317f04c29f)
+        ;
+
+        
+    
+    
+            var poly_line_57fb7818b45a0baeb2165df1abca319a = L.polyline(
+                [[52.3708582, 4.839827005917686], [52.4533015, 4.8256885]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_8a01cc75a56aa45f268fa44bbfc7d821 = L.circleMarker(
+                [52.3235887, 4.652998598790555],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_9947a1959f24fb119bc092a2911818a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1dcf34d0e382d4dfe726a3b1f098c1f = $(`<div id="html_a1dcf34d0e382d4dfe726a3b1f098c1f" style="width: 100.0%; height: 100.0%;">Covered: SPAARNE GASTHUIS (HOOFDDORP)</div>`)[0];
+                popup_9947a1959f24fb119bc092a2911818a0.setContent(html_a1dcf34d0e382d4dfe726a3b1f098c1f);
+            
+        
+
+        circle_marker_8a01cc75a56aa45f268fa44bbfc7d821.bindPopup(popup_9947a1959f24fb119bc092a2911818a0)
+        ;
+
+        
+    
+    
+            var poly_line_c63342e1ef5c75ff93c16a165d887908 = L.polyline(
+                [[52.3235887, 4.652998598790555], [52.4533015, 4.8256885]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var marker_1f56eef508aab31411056d5ad202fc97 = L.marker(
+                [52.0245389, 5.0825088],
+                {
+}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var icon_134bca55d4f95ee7c2aa3574149ea63b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5939e59317d677574b0ba3ae9b406393 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5bd6f58a04b82330cea0f5c30e979f2 = $(`<div id="html_d5bd6f58a04b82330cea0f5c30e979f2" style="width: 100.0%; height: 100.0%;">Blood Center: ST ANTONIUS ZIEKENHUIS (NIEUWEGEIN)</div>`)[0];
+                popup_5939e59317d677574b0ba3ae9b406393.setContent(html_d5bd6f58a04b82330cea0f5c30e979f2);
+            
+        
+
+        marker_1f56eef508aab31411056d5ad202fc97.bindPopup(popup_5939e59317d677574b0ba3ae9b406393)
+        ;
+
+        
+    
+    
+                marker_1f56eef508aab31411056d5ad202fc97.setIcon(icon_134bca55d4f95ee7c2aa3574149ea63b);
+            
+    
+            var circle_marker_3c930cce19dd69d04aba8a7fcb8e1fc3 = L.circleMarker(
+                [52.1026918, 5.0586192],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_461ff5e33e372ac3e1585a82ce3c18b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_666b40404b2d097d969c7eed2436cece = $(`<div id="html_666b40404b2d097d969c7eed2436cece" style="width: 100.0%; height: 100.0%;">Covered: ST ANTONIUS ZIEKENHUIS (UTRECHT OUDENRIJN)</div>`)[0];
+                popup_461ff5e33e372ac3e1585a82ce3c18b4.setContent(html_666b40404b2d097d969c7eed2436cece);
+            
+        
+
+        circle_marker_3c930cce19dd69d04aba8a7fcb8e1fc3.bindPopup(popup_461ff5e33e372ac3e1585a82ce3c18b4)
+        ;
+
+        
+    
+    
+            var poly_line_5423a09e888cf5fbc79a21e3ac427a2e = L.polyline(
+                [[52.1026918, 5.0586192], [52.0245389, 5.0825088]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_d52a750d7cea9c0a3efad8e756d263cb = L.circleMarker(
+                [52.2676538, 5.207674],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_b93ce1044d568249f4fa1613c5a677e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8e30562feea95be271e41a342d72192 = $(`<div id="html_b8e30562feea95be271e41a342d72192" style="width: 100.0%; height: 100.0%;">Covered: TERGOOIZIEKENHUIZEN (BLARICUM)</div>`)[0];
+                popup_b93ce1044d568249f4fa1613c5a677e4.setContent(html_b8e30562feea95be271e41a342d72192);
+            
+        
+
+        circle_marker_d52a750d7cea9c0a3efad8e756d263cb.bindPopup(popup_b93ce1044d568249f4fa1613c5a677e4)
+        ;
+
+        
+    
+    
+            var poly_line_ef49531a62940d493eae35406f7db2c6 = L.polyline(
+                [[52.2676538, 5.207674], [52.4533015, 4.8256885]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_386d14bdc3713a83f8fe1ca1556702eb = L.circleMarker(
+                [52.2169171, 5.2015477],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_2c03edc58982ad529a306d86cab7d808 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f851bfa6a65a7a65e85c46b84b99d43 = $(`<div id="html_9f851bfa6a65a7a65e85c46b84b99d43" style="width: 100.0%; height: 100.0%;">Covered: TERGOOIZIEKENHUIZEN (HILVERSUM)</div>`)[0];
+                popup_2c03edc58982ad529a306d86cab7d808.setContent(html_9f851bfa6a65a7a65e85c46b84b99d43);
+            
+        
+
+        circle_marker_386d14bdc3713a83f8fe1ca1556702eb.bindPopup(popup_2c03edc58982ad529a306d86cab7d808)
+        ;
+
+        
+    
+    
+            var poly_line_6cabb404d47286994f8073c07e0b065b = L.polyline(
+                [[52.2169171, 5.2015477], [52.0245389, 5.0825088]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_2266a294c9670b18a118e594b04e6fd8 = L.circleMarker(
+                [52.1740179, 4.4827421],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_daa85cf6cf143c605d8458bd5c650121 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4796d49a4d2715829273a7815c7bca2 = $(`<div id="html_f4796d49a4d2715829273a7815c7bca2" style="width: 100.0%; height: 100.0%;">Covered: ALRIJNE ZIEKENHUIS (LEIDEN)</div>`)[0];
+                popup_daa85cf6cf143c605d8458bd5c650121.setContent(html_f4796d49a4d2715829273a7815c7bca2);
+            
+        
+
+        circle_marker_2266a294c9670b18a118e594b04e6fd8.bindPopup(popup_daa85cf6cf143c605d8458bd5c650121)
+        ;
+
+        
+    
+    
+            var poly_line_459768c13c58c303abf9723f13b81f0e = L.polyline(
+                [[52.1740179, 4.4827421], [52.0925754, 4.3834479]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_1ecf236a4aa6d7b872fa4fc8e58f4b3e = L.circleMarker(
+                [52.1572523, 4.5410356],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_46686cdf68bf82e8baa36b9a639fbf1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d86aa879218d6f6ff36c7d6e2ab1a70 = $(`<div id="html_0d86aa879218d6f6ff36c7d6e2ab1a70" style="width: 100.0%; height: 100.0%;">Covered: ALRIJNE ZIEKENHUIS (LEIDERDORP)</div>`)[0];
+                popup_46686cdf68bf82e8baa36b9a639fbf1d.setContent(html_0d86aa879218d6f6ff36c7d6e2ab1a70);
+            
+        
+
+        circle_marker_1ecf236a4aa6d7b872fa4fc8e58f4b3e.bindPopup(popup_46686cdf68bf82e8baa36b9a639fbf1d)
+        ;
+
+        
+    
+    
+            var poly_line_ec4c2510173987f0d14de9fcce5df9eb = L.polyline(
+                [[52.1572523, 4.5410356], [52.0925754, 4.3834479]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var marker_7ad35171848f8dec3c479d92057f2c44 = L.marker(
+                [52.0925754, 4.3834479],
+                {
+}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var icon_ab0de6e24e3c7e1b6dd148e4908f43ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_de1a16a3bc1f5f1bc1ae9d467ed56fc1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7252a175096e9d3a7cbb045b37d2a530 = $(`<div id="html_7252a175096e9d3a7cbb045b37d2a530" style="width: 100.0%; height: 100.0%;">Blood Center: HAAGLANDEN MEDISCH CENTRUM (ANTONIUSHOVEN)</div>`)[0];
+                popup_de1a16a3bc1f5f1bc1ae9d467ed56fc1.setContent(html_7252a175096e9d3a7cbb045b37d2a530);
+            
+        
+
+        marker_7ad35171848f8dec3c479d92057f2c44.bindPopup(popup_de1a16a3bc1f5f1bc1ae9d467ed56fc1)
+        ;
+
+        
+    
+    
+                marker_7ad35171848f8dec3c479d92057f2c44.setIcon(icon_ab0de6e24e3c7e1b6dd148e4908f43ff);
+            
+    
+            var circle_marker_e05fdb3667ea830148b063f5e47c8445 = L.circleMarker(
+                [52.0891679, 5.1803369],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_a85ad96f61b9472b6201c5f3c3335988 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f88239132b4e52e1ffe711e4f916a62 = $(`<div id="html_3f88239132b4e52e1ffe711e4f916a62" style="width: 100.0%; height: 100.0%;">Covered: UNIVERSITAIR MEDISCH CENTRUM UTRECHT</div>`)[0];
+                popup_a85ad96f61b9472b6201c5f3c3335988.setContent(html_3f88239132b4e52e1ffe711e4f916a62);
+            
+        
+
+        circle_marker_e05fdb3667ea830148b063f5e47c8445.bindPopup(popup_a85ad96f61b9472b6201c5f3c3335988)
+        ;
+
+        
+    
+    
+            var poly_line_2a17495a4456dcf2396c536adaa436a3 = L.polyline(
+                [[52.0891679, 5.1803369], [52.0245389, 5.0825088]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_95b60c4067b96dc335e1ada25ad6c273 = L.circleMarker(
+                [52.3325604, 4.8584018],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_d328065d5de847e12d9da1f515ddd631 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84d3c0c5140d895143f7881dd1528aab = $(`<div id="html_84d3c0c5140d895143f7881dd1528aab" style="width: 100.0%; height: 100.0%;">Covered: VU MEDISCH CENTRUM</div>`)[0];
+                popup_d328065d5de847e12d9da1f515ddd631.setContent(html_84d3c0c5140d895143f7881dd1528aab);
+            
+        
+
+        circle_marker_95b60c4067b96dc335e1ada25ad6c273.bindPopup(popup_d328065d5de847e12d9da1f515ddd631)
+        ;
+
+        
+    
+    
+            var poly_line_ca5c301a8b2edd267f319364dcd178b5 = L.polyline(
+                [[52.3325604, 4.8584018], [52.4533015, 4.8256885]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_30f52702d5ff4556891db9c4bc736bb9 = L.circleMarker(
+                [52.5004649, 4.9624926],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_44e6bdc50c8361af5f4dd67df4dd427f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b76b4c7de9d4d7437c3ca7d3a6d30ff = $(`<div id="html_4b76b4c7de9d4d7437c3ca7d3a6d30ff" style="width: 100.0%; height: 100.0%;">Covered: DIJKLANDER ZIEKENHUIS (PURMEREND)</div>`)[0];
+                popup_44e6bdc50c8361af5f4dd67df4dd427f.setContent(html_4b76b4c7de9d4d7437c3ca7d3a6d30ff);
+            
+        
+
+        circle_marker_30f52702d5ff4556891db9c4bc736bb9.bindPopup(popup_44e6bdc50c8361af5f4dd67df4dd427f)
+        ;
+
+        
+    
+    
+            var poly_line_60c10a262817af5a1122564544a84311 = L.polyline(
+                [[52.5004649, 4.9624926], [52.4533015, 4.8256885]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_64dc2a7c71009f8137998d3cb15e26d5 = L.circleMarker(
+                [52.647468700000005, 5.05529974035423],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_2446c601d9f543dc9fb664b7c7643dc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b9b4c761b6a0a5a82e77ce265ca638d = $(`<div id="html_3b9b4c761b6a0a5a82e77ce265ca638d" style="width: 100.0%; height: 100.0%;">Covered: DIJKLANDER ZIEKENHUIS (HOORN)</div>`)[0];
+                popup_2446c601d9f543dc9fb664b7c7643dc2.setContent(html_3b9b4c761b6a0a5a82e77ce265ca638d);
+            
+        
+
+        circle_marker_64dc2a7c71009f8137998d3cb15e26d5.bindPopup(popup_2446c601d9f543dc9fb664b7c7643dc2)
+        ;
+
+        
+    
+    
+            var poly_line_7b80f8ad3d5c50faf70f719bca52c888 = L.polyline(
+                [[52.647468700000005, 5.05529974035423], [52.4533015, 4.8256885]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var marker_f9e55135b7224892cddcd16e059b80e7 = L.marker(
+                [52.4533015, 4.8256885],
+                {
+}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var icon_80cd96c1de32e91590fb6667b428a7e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cba42788f03a9b60601ce0bf1caa67af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b81ed157f21781bfb3db356a26d6a4ae = $(`<div id="html_b81ed157f21781bfb3db356a26d6a4ae" style="width: 100.0%; height: 100.0%;">Blood Center: ZAANS MEDISCH CENTRUM</div>`)[0];
+                popup_cba42788f03a9b60601ce0bf1caa67af.setContent(html_b81ed157f21781bfb3db356a26d6a4ae);
+            
+        
+
+        marker_f9e55135b7224892cddcd16e059b80e7.bindPopup(popup_cba42788f03a9b60601ce0bf1caa67af)
+        ;
+
+        
+    
+    
+                marker_f9e55135b7224892cddcd16e059b80e7.setIcon(icon_80cd96c1de32e91590fb6667b428a7e8);
+            
+    
+            var circle_marker_cb464f2ccc6e456fbb7ea7702639e28d = L.circleMarker(
+                [52.293437, 4.8749498],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_51a7c3c257cb6a875a15dd63b8ec20f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6199a628ca081f71b825bbe9bff411dc = $(`<div id="html_6199a628ca081f71b825bbe9bff411dc" style="width: 100.0%; height: 100.0%;">Covered: AMSTELLAND ZIEKENHUIS</div>`)[0];
+                popup_51a7c3c257cb6a875a15dd63b8ec20f0.setContent(html_6199a628ca081f71b825bbe9bff411dc);
+            
+        
+
+        circle_marker_cb464f2ccc6e456fbb7ea7702639e28d.bindPopup(popup_51a7c3c257cb6a875a15dd63b8ec20f0)
+        ;
+
+        
+    
+    
+            var poly_line_00597cec72832d75ff046c1cf13eddd9 = L.polyline(
+                [[52.293437, 4.8749498], [52.4533015, 4.8256885]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_cc1378dd6aa6025ed9c417656f251bb1 = L.circleMarker(
+                [52.0003784, 5.909720046417444],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_7cf466422f9754707d43de88e516dfac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9079b7e3d163db93a3c73864f6dcfadb = $(`<div id="html_9079b7e3d163db93a3c73864f6dcfadb" style="width: 100.0%; height: 100.0%;">Uncovered: ZIEKENHUIS RIJNSTATE</div>`)[0];
+                popup_7cf466422f9754707d43de88e516dfac.setContent(html_9079b7e3d163db93a3c73864f6dcfadb);
+            
+        
+
+        circle_marker_cc1378dd6aa6025ed9c417656f251bb1.bindPopup(popup_7cf466422f9754707d43de88e516dfac)
+        ;
+
+        
+    
+    
+            var circle_marker_51c524d59853843ed4da7cd5f1761eaf = L.circleMarker(
+                [51.6635586, 5.9403546],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_a583265c010c2ff0fa297babe032082e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13d499f595ed993a4eb2326cd0da51b0 = $(`<div id="html_13d499f595ed993a4eb2326cd0da51b0" style="width: 100.0%; height: 100.0%;">Covered: MAASZIEKENHUIS PANTEIN</div>`)[0];
+                popup_a583265c010c2ff0fa297babe032082e.setContent(html_13d499f595ed993a4eb2326cd0da51b0);
+            
+        
+
+        circle_marker_51c524d59853843ed4da7cd5f1761eaf.bindPopup(popup_a583265c010c2ff0fa297babe032082e)
+        ;
+
+        
+    
+    
+            var poly_line_57df0f59973545adb0b6d2d2f0a99454 = L.polyline(
+                [[51.6635586, 5.9403546], [51.81753575, 5.831129006175855]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_f267dd4599c0af5a2396421098c7ba10 = L.circleMarker(
+                [51.9765384, 6.2855266],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_cc752ce10516b2948a7ea5cb46e60ea9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5308c3d98211f6fdde21f333fced1015 = $(`<div id="html_5308c3d98211f6fdde21f333fced1015" style="width: 100.0%; height: 100.0%;">Uncovered: SLINGELAND ZIEKENHUIS</div>`)[0];
+                popup_cc752ce10516b2948a7ea5cb46e60ea9.setContent(html_5308c3d98211f6fdde21f333fced1015);
+            
+        
+
+        circle_marker_f267dd4599c0af5a2396421098c7ba10.bindPopup(popup_cc752ce10516b2948a7ea5cb46e60ea9)
+        ;
+
+        
+    
+    
+            var circle_marker_fc0c4555f7bae84925d7760e55c14273 = L.circleMarker(
+                [52.0228218, 5.6455098],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_6e9e80c08f78712a332eeadaa8c61911 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d712093b453e97dc46da5d8270a6e391 = $(`<div id="html_d712093b453e97dc46da5d8270a6e391" style="width: 100.0%; height: 100.0%;">Uncovered: GELDERSE VALLEI</div>`)[0];
+                popup_6e9e80c08f78712a332eeadaa8c61911.setContent(html_d712093b453e97dc46da5d8270a6e391);
+            
+        
+
+        circle_marker_fc0c4555f7bae84925d7760e55c14273.bindPopup(popup_6e9e80c08f78712a332eeadaa8c61911)
+        ;
+
+        
+    
+    
+            var circle_marker_22a689f0eec07657376f480920dbcba1 = L.circleMarker(
+                [51.8015298, 5.8949526],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_484e121384aad5627e1c1aa0c623ae5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf66d8716de330ef47da26c63b44927f = $(`<div id="html_bf66d8716de330ef47da26c63b44927f" style="width: 100.0%; height: 100.0%;">Covered: UNIVERSITAIR LONGCENTRUM DEKKERSWALD</div>`)[0];
+                popup_484e121384aad5627e1c1aa0c623ae5a.setContent(html_bf66d8716de330ef47da26c63b44927f);
+            
+        
+
+        circle_marker_22a689f0eec07657376f480920dbcba1.bindPopup(popup_484e121384aad5627e1c1aa0c623ae5a)
+        ;
+
+        
+    
+    
+            var poly_line_f56a200f87981d1ef159be006cd265e1 = L.polyline(
+                [[51.8015298, 5.8949526], [51.81753575, 5.831129006175855]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var marker_aa966e13be51075ed416144566201992 = L.marker(
+                [51.81753575, 5.831129006175855],
+                {
+}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var icon_f9a46adecd0dd997b4ac02e85c32b38a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_18bb56e4ac38d84a87df333bdb6fa9b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_159bf8331acc593bdd5804179fae2038 = $(`<div id="html_159bf8331acc593bdd5804179fae2038" style="width: 100.0%; height: 100.0%;">Blood Center: CANISIUS WILHELMINA ZIEKENHUIS</div>`)[0];
+                popup_18bb56e4ac38d84a87df333bdb6fa9b4.setContent(html_159bf8331acc593bdd5804179fae2038);
+            
+        
+
+        marker_aa966e13be51075ed416144566201992.bindPopup(popup_18bb56e4ac38d84a87df333bdb6fa9b4)
+        ;
+
+        
+    
+    
+                marker_aa966e13be51075ed416144566201992.setIcon(icon_f9a46adecd0dd997b4ac02e85c32b38a);
+            
+    
+            var circle_marker_3bb8172bd1e18a3305f335ce73d39d82 = L.circleMarker(
+                [51.8326446, 5.8958866],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_e071954a6fa630069d2eed62b9746a70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76db130f9d312e40880dbf725b89dd29 = $(`<div id="html_76db130f9d312e40880dbf725b89dd29" style="width: 100.0%; height: 100.0%;">Covered: SINT MAARTENSKLINIEK</div>`)[0];
+                popup_e071954a6fa630069d2eed62b9746a70.setContent(html_76db130f9d312e40880dbf725b89dd29);
+            
+        
+
+        circle_marker_3bb8172bd1e18a3305f335ce73d39d82.bindPopup(popup_e071954a6fa630069d2eed62b9746a70)
+        ;
+
+        
+    
+    
+            var poly_line_3888f477f71e0ecd6bd03a7c42db8f9f = L.polyline(
+                [[51.8326446, 5.8958866], [51.81753575, 5.831129006175855]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_9f9595ae1ea0bebf133b5380577c3a53 = L.circleMarker(
+                [51.8237099, 5.8598624],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_fa1e6d7310a286002407952cc31433ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c672c3aba26a87d4523c510ad6509999 = $(`<div id="html_c672c3aba26a87d4523c510ad6509999" style="width: 100.0%; height: 100.0%;">Covered: RADBOUD UMC</div>`)[0];
+                popup_fa1e6d7310a286002407952cc31433ba.setContent(html_c672c3aba26a87d4523c510ad6509999);
+            
+        
+
+        circle_marker_9f9595ae1ea0bebf133b5380577c3a53.bindPopup(popup_fa1e6d7310a286002407952cc31433ba)
+        ;
+
+        
+    
+    
+            var poly_line_68746a73714061bd47d0c2a5efe61bb0 = L.polyline(
+                [[51.8237099, 5.8598624], [51.81753575, 5.831129006175855]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_a0331c72300a1c8b5d8d77bc67d12637 = L.circleMarker(
+                [51.6737903, 5.6055643],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_9fe30b132d31c5cee714e6679a5a5489 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_961669b5496d7f86ee4b77f724c9ebd4 = $(`<div id="html_961669b5496d7f86ee4b77f724c9ebd4" style="width: 100.0%; height: 100.0%;">Covered: BERNHOVEN ZIEKENHUIS</div>`)[0];
+                popup_9fe30b132d31c5cee714e6679a5a5489.setContent(html_961669b5496d7f86ee4b77f724c9ebd4);
+            
+        
+
+        circle_marker_a0331c72300a1c8b5d8d77bc67d12637.bindPopup(popup_9fe30b132d31c5cee714e6679a5a5489)
+        ;
+
+        
+    
+    
+            var poly_line_8855ac44317305f80786013159d7185a = L.polyline(
+                [[51.6737903, 5.6055643], [51.81753575, 5.831129006175855]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_7ca0e8cfbf017ebce4d5c02ebfca2a3c = L.circleMarker(
+                [51.8899934, 5.414904701256226],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_2244954f759e3a5b198eb3c8cfa4886b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59002cfa8fabe99c62d879c129256e2a = $(`<div id="html_59002cfa8fabe99c62d879c129256e2a" style="width: 100.0%; height: 100.0%;">Uncovered: ZIEKENHUIS RIVIERENLAND</div>`)[0];
+                popup_2244954f759e3a5b198eb3c8cfa4886b.setContent(html_59002cfa8fabe99c62d879c129256e2a);
+            
+        
+
+        circle_marker_7ca0e8cfbf017ebce4d5c02ebfca2a3c.bindPopup(popup_2244954f759e3a5b198eb3c8cfa4886b)
+        ;
+
+        
+    
+    
+            var circle_marker_a6101ddb335fabc636b551486e76f0cf = L.circleMarker(
+                [51.3572099, 6.1540198],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_7e14226c8d17a906fbef50e13623e8e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83b766c7d5afacb004ccaa7785df0cad = $(`<div id="html_83b766c7d5afacb004ccaa7785df0cad" style="width: 100.0%; height: 100.0%;">Uncovered: VIECURI MEDISCH CENTRUM</div>`)[0];
+                popup_7e14226c8d17a906fbef50e13623e8e6.setContent(html_83b766c7d5afacb004ccaa7785df0cad);
+            
+        
+
+        circle_marker_a6101ddb335fabc636b551486e76f0cf.bindPopup(popup_7e14226c8d17a906fbef50e13623e8e6)
+        ;
+
+        
+    
+    
+            var circle_marker_d59bc353b2a5b972623754b3ea2d44e7 = L.circleMarker(
+                [51.9419589, 6.0686884],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_551c3786004be7687d56e2847ca2cdd5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_feb34015b681a8524688f5667f37d619 = $(`<div id="html_feb34015b681a8524688f5667f37d619" style="width: 100.0%; height: 100.0%;">Uncovered: ALYSIS ZORGGROEP ZIEKENHUIS ZEVENAAR</div>`)[0];
+                popup_551c3786004be7687d56e2847ca2cdd5.setContent(html_feb34015b681a8524688f5667f37d619);
+            
+        
+
+        circle_marker_d59bc353b2a5b972623754b3ea2d44e7.bindPopup(popup_551c3786004be7687d56e2847ca2cdd5)
+        ;
+
+        
+    
+    
+            var circle_marker_4e45b4217feeeec7333eed919e0c0d76 = L.circleMarker(
+                [51.6916081, 5.3051541],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_795eb8579310a98e840a15bed1668bcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98f2ea5a86007c4aa1643670b7f9495a = $(`<div id="html_98f2ea5a86007c4aa1643670b7f9495a" style="width: 100.0%; height: 100.0%;">Uncovered: JEROEN BOSCH ZIEKENHUIS</div>`)[0];
+                popup_795eb8579310a98e840a15bed1668bcb.setContent(html_98f2ea5a86007c4aa1643670b7f9495a);
+            
+        
+
+        circle_marker_4e45b4217feeeec7333eed919e0c0d76.bindPopup(popup_795eb8579310a98e840a15bed1668bcb)
+        ;
+
+        
+    
+    
+            var circle_marker_deab535ccb178b69e61ae32aaac8f06b = L.circleMarker(
+                [51.46569205, 5.472034887911818],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_7fdb682eaf8519b5ed63e007e137f3fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1767458f982b9ed468aa8efe5e6b9270 = $(`<div id="html_1767458f982b9ed468aa8efe5e6b9270" style="width: 100.0%; height: 100.0%;">Covered: CATHARINA ZIEKENHUIS</div>`)[0];
+                popup_7fdb682eaf8519b5ed63e007e137f3fb.setContent(html_1767458f982b9ed468aa8efe5e6b9270);
+            
+        
+
+        circle_marker_deab535ccb178b69e61ae32aaac8f06b.bindPopup(popup_7fdb682eaf8519b5ed63e007e137f3fb)
+        ;
+
+        
+    
+    
+            var poly_line_51765bc4ff8cf351ba43eacf154c015b = L.polyline(
+                [[51.46569205, 5.472034887911818], [51.4198514, 5.5585586]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_76a9cad12950ba573b01e88f7087db4c = L.circleMarker(
+                [51.4547106, 5.4878648],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_01ec337d9930e500792fb437447e1bae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f99826f10f70f939b8c1b7fff0dc1a5d = $(`<div id="html_f99826f10f70f939b8c1b7fff0dc1a5d" style="width: 100.0%; height: 100.0%;">Covered: MAXIMA MEDISCH CENTRUM (EINDHOVEN)</div>`)[0];
+                popup_01ec337d9930e500792fb437447e1bae.setContent(html_f99826f10f70f939b8c1b7fff0dc1a5d);
+            
+        
+
+        circle_marker_76a9cad12950ba573b01e88f7087db4c.bindPopup(popup_01ec337d9930e500792fb437447e1bae)
+        ;
+
+        
+    
+    
+            var poly_line_2b4cf359b0b262363b4ac4f5f486b15a = L.polyline(
+                [[51.4547106, 5.4878648], [51.4198514, 5.5585586]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var marker_09f26cdaeb4ef6a57791e4cbf719ef06 = L.marker(
+                [51.4198514, 5.5585586],
+                {
+}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var icon_1775697661f1152e7eebca5f7bbe0c36 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6232f6766fd533d1dfc726670cfdb95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_899d899a8f41c9287d81a878ba8c1b3f = $(`<div id="html_899d899a8f41c9287d81a878ba8c1b3f" style="width: 100.0%; height: 100.0%;">Blood Center: ST. ANNA ZIEKENHUIS</div>`)[0];
+                popup_f6232f6766fd533d1dfc726670cfdb95.setContent(html_899d899a8f41c9287d81a878ba8c1b3f);
+            
+        
+
+        marker_09f26cdaeb4ef6a57791e4cbf719ef06.bindPopup(popup_f6232f6766fd533d1dfc726670cfdb95)
+        ;
+
+        
+    
+    
+                marker_09f26cdaeb4ef6a57791e4cbf719ef06.setIcon(icon_1775697661f1152e7eebca5f7bbe0c36);
+            
+    
+            var circle_marker_a1f60e5ee513d8daeeb0f78a05968628 = L.circleMarker(
+                [51.4818128, 5.6424049],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_89bd360ec7102895b2dcaac752748ea1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66aabd28845460bffd01053732b4d86b = $(`<div id="html_66aabd28845460bffd01053732b4d86b" style="width: 100.0%; height: 100.0%;">Covered: ELKERLIEK ZIEKENHUIS</div>`)[0];
+                popup_89bd360ec7102895b2dcaac752748ea1.setContent(html_66aabd28845460bffd01053732b4d86b);
+            
+        
+
+        circle_marker_a1f60e5ee513d8daeeb0f78a05968628.bindPopup(popup_89bd360ec7102895b2dcaac752748ea1)
+        ;
+
+        
+    
+    
+            var poly_line_d2680b253819d692fbf17c01700089ef = L.polyline(
+                [[51.4818128, 5.6424049], [51.4198514, 5.5585586]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_fe0288adfc4a61b92cab76839a4d7a69 = L.circleMarker(
+                [51.53943, 5.1035222],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_5b28f61be75353e457429f200db4e715 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ffc317b0538f6a2c17453d97f0790f9f = $(`<div id="html_ffc317b0538f6a2c17453d97f0790f9f" style="width: 100.0%; height: 100.0%;">Covered: ELISABETH TWEESTEDEN ZIEKENHUIS</div>`)[0];
+                popup_5b28f61be75353e457429f200db4e715.setContent(html_ffc317b0538f6a2c17453d97f0790f9f);
+            
+        
+
+        circle_marker_fe0288adfc4a61b92cab76839a4d7a69.bindPopup(popup_5b28f61be75353e457429f200db4e715)
+        ;
+
+        
+    
+    
+            var poly_line_82e26051c3d090571eb86bf3949280cd = L.polyline(
+                [[51.53943, 5.1035222], [51.5740572, 4.76293677249866]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_0b251213936d7f8c156a730a37e05367 = L.circleMarker(
+                [51.4054195, 5.419928455452013],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_09f3a45269715ce8a6decd8e6d7b74e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0a41cdf239c89151d6e70f31d65f6f0 = $(`<div id="html_a0a41cdf239c89151d6e70f31d65f6f0" style="width: 100.0%; height: 100.0%;">Covered: MAXIMA MEDISCH CENTRUM (VELDHOVEN)</div>`)[0];
+                popup_09f3a45269715ce8a6decd8e6d7b74e6.setContent(html_a0a41cdf239c89151d6e70f31d65f6f0);
+            
+        
+
+        circle_marker_0b251213936d7f8c156a730a37e05367.bindPopup(popup_09f3a45269715ce8a6decd8e6d7b74e6)
+        ;
+
+        
+    
+    
+            var poly_line_833f417a0701da554c9a77ed592ec3b7 = L.polyline(
+                [[51.4054195, 5.419928455452013], [51.4198514, 5.5585586]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_97776c37e790b9800789e98b2c1cbc82 = L.circleMarker(
+                [51.2543474, 5.7128186],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_8dec4272f6fe60da59542333dcf4be28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04a42683e80b7e72dd2509fb05ec9f6b = $(`<div id="html_04a42683e80b7e72dd2509fb05ec9f6b" style="width: 100.0%; height: 100.0%;">Covered: ST. JANS GASTHUIS</div>`)[0];
+                popup_8dec4272f6fe60da59542333dcf4be28.setContent(html_04a42683e80b7e72dd2509fb05ec9f6b);
+            
+        
+
+        circle_marker_97776c37e790b9800789e98b2c1cbc82.bindPopup(popup_8dec4272f6fe60da59542333dcf4be28)
+        ;
+
+        
+    
+    
+            var poly_line_5416083203068db84ca6ea06a55af771 = L.polyline(
+                [[51.2543474, 5.7128186], [51.4198514, 5.5585586]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_68d7e9632aa92750de12f961c3443da7 = L.circleMarker(
+                [50.8686579, 5.9768939],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_f66d3da20a5eaf294ae4d74fd6d619e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3eb243951d2db11945f627d1de8c254 = $(`<div id="html_e3eb243951d2db11945f627d1de8c254" style="width: 100.0%; height: 100.0%;">Uncovered: ZUYDERLAND MEDISCH CENTRUM (HEERLEN)</div>`)[0];
+                popup_f66d3da20a5eaf294ae4d74fd6d619e0.setContent(html_e3eb243951d2db11945f627d1de8c254);
+            
+        
+
+        circle_marker_68d7e9632aa92750de12f961c3443da7.bindPopup(popup_f66d3da20a5eaf294ae4d74fd6d619e0)
+        ;
+
+        
+    
+    
+            var circle_marker_37c7f11611e8a7cda5e8bde0bff294b8 = L.circleMarker(
+                [50.83432775, 5.712711471610612],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_af466edc4eb289e58c4092047b28e772 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc8186211ac20a56e7796083634c79d1 = $(`<div id="html_dc8186211ac20a56e7796083634c79d1" style="width: 100.0%; height: 100.0%;">Uncovered: MUMC+</div>`)[0];
+                popup_af466edc4eb289e58c4092047b28e772.setContent(html_dc8186211ac20a56e7796083634c79d1);
+            
+        
+
+        circle_marker_37c7f11611e8a7cda5e8bde0bff294b8.bindPopup(popup_af466edc4eb289e58c4092047b28e772)
+        ;
+
+        
+    
+    
+            var circle_marker_679d424a0496a4e4c407cd72cad1496e = L.circleMarker(
+                [51.1918223, 5.9988473],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_5abf0d8fe3ffaad0575f5d6ad723ac9d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_042f3cb8ef9282574fc578a1a09cc7fa = $(`<div id="html_042f3cb8ef9282574fc578a1a09cc7fa" style="width: 100.0%; height: 100.0%;">Uncovered: LAURENTIUS ZIEKENHUIS</div>`)[0];
+                popup_5abf0d8fe3ffaad0575f5d6ad723ac9d.setContent(html_042f3cb8ef9282574fc578a1a09cc7fa);
+            
+        
+
+        circle_marker_679d424a0496a4e4c407cd72cad1496e.bindPopup(popup_5abf0d8fe3ffaad0575f5d6ad723ac9d)
+        ;
+
+        
+    
+    
+            var circle_marker_d094cf137a52a5512ebfacb9099f9037 = L.circleMarker(
+                [50.9831869, 5.8445955],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_b04d0d2ead560d7bb8db9128258e12b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b555c860b014c67f3c6b85da7b201196 = $(`<div id="html_b555c860b014c67f3c6b85da7b201196" style="width: 100.0%; height: 100.0%;">Uncovered: ZUYDERLAND MEDISCH CENTRUM (SITTARD)</div>`)[0];
+                popup_b04d0d2ead560d7bb8db9128258e12b6.setContent(html_b555c860b014c67f3c6b85da7b201196);
+            
+        
+
+        circle_marker_d094cf137a52a5512ebfacb9099f9037.bindPopup(popup_b04d0d2ead560d7bb8db9128258e12b6)
+        ;
+
+        
+    
+    
+            var circle_marker_80ff9e7a0ee779ffcd126c6df5db399d = L.circleMarker(
+                [53.22310875, 6.574140252549992],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_5621746f4588987a4ac94d8730910161 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77ea6d5c1d119248e20ef01234bed9c4 = $(`<div id="html_77ea6d5c1d119248e20ef01234bed9c4" style="width: 100.0%; height: 100.0%;">Covered: GRONINGEN UMC</div>`)[0];
+                popup_5621746f4588987a4ac94d8730910161.setContent(html_77ea6d5c1d119248e20ef01234bed9c4);
+            
+        
+
+        circle_marker_80ff9e7a0ee779ffcd126c6df5db399d.bindPopup(popup_5621746f4588987a4ac94d8730910161)
+        ;
+
+        
+    
+    
+            var poly_line_eabdc7907badc33c9e6a988e52de27d7 = L.polyline(
+                [[53.22310875, 6.574140252549992], [53.1829634, 6.9593124]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_a8c9deafda4482541efd5db3a0a4e89e = L.circleMarker(
+                [53.19162995, 6.550999518154377],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_24a04650dbc46e2bfa18cb993c25426e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_809a68d629ee7a2df9273681ca6583c1 = $(`<div id="html_809a68d629ee7a2df9273681ca6583c1" style="width: 100.0%; height: 100.0%;">Uncovered: MARTINI ZIEKENHUIS</div>`)[0];
+                popup_24a04650dbc46e2bfa18cb993c25426e.setContent(html_809a68d629ee7a2df9273681ca6583c1);
+            
+        
+
+        circle_marker_a8c9deafda4482541efd5db3a0a4e89e.bindPopup(popup_24a04650dbc46e2bfa18cb993c25426e)
+        ;
+
+        
+    
+    
+            var marker_1a9532c5ff79455573121dcd81af3226 = L.marker(
+                [53.1888721, 5.8069156],
+                {
+}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var icon_c2c3ad957d84c034292bf5d7491973fd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_34d4dd498c7dc080a259330e92d9dad5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93a9968718bd35bead6b34da7f417388 = $(`<div id="html_93a9968718bd35bead6b34da7f417388" style="width: 100.0%; height: 100.0%;">Blood Center: MEDISCH CENTRUM LEEUWARDEN</div>`)[0];
+                popup_34d4dd498c7dc080a259330e92d9dad5.setContent(html_93a9968718bd35bead6b34da7f417388);
+            
+        
+
+        marker_1a9532c5ff79455573121dcd81af3226.bindPopup(popup_34d4dd498c7dc080a259330e92d9dad5)
+        ;
+
+        
+    
+    
+                marker_1a9532c5ff79455573121dcd81af3226.setIcon(icon_c2c3ad957d84c034292bf5d7491973fd);
+            
+    
+            var circle_marker_20273157b77c603bbbdf2fa17d8ea070 = L.circleMarker(
+                [53.034689, 5.642867],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_6fc73b84cca2d3b7d388688e6311ae8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63d25861a56da1a17fc0490e72fb89ff = $(`<div id="html_63d25861a56da1a17fc0490e72fb89ff" style="width: 100.0%; height: 100.0%;">Uncovered: ANTONIUS ZIEKENHUIS (SNEEK)</div>`)[0];
+                popup_6fc73b84cca2d3b7d388688e6311ae8b.setContent(html_63d25861a56da1a17fc0490e72fb89ff);
+            
+        
+
+        circle_marker_20273157b77c603bbbdf2fa17d8ea070.bindPopup(popup_6fc73b84cca2d3b7d388688e6311ae8b)
+        ;
+
+        
+    
+    
+            var circle_marker_e44126927e29da3c58b1aca476988f66 = L.circleMarker(
+                [52.9661457, 5.9176989],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_cd597a87cbceb804299d5e0f05cc97f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de2881e8eb347298e69b0f30967891ed = $(`<div id="html_de2881e8eb347298e69b0f30967891ed" style="width: 100.0%; height: 100.0%;">Covered: TJONGERSCHANS ZIEKENHUIS</div>`)[0];
+                popup_cd597a87cbceb804299d5e0f05cc97f3.setContent(html_de2881e8eb347298e69b0f30967891ed);
+            
+        
+
+        circle_marker_e44126927e29da3c58b1aca476988f66.bindPopup(popup_cd597a87cbceb804299d5e0f05cc97f3)
+        ;
+
+        
+    
+    
+            var poly_line_609347d2af3b93aee1b22f8fa178f440 = L.polyline(
+                [[52.9661457, 5.9176989], [53.1888721, 5.8069156]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_4d760d802ca7a7343d2ebd1803173274 = L.circleMarker(
+                [53.3265075, 6.9043681],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_134a9f9b81a77cbf68fcaa4b58c77464 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa0081ad9bfb83a1609168071ae144e6 = $(`<div id="html_fa0081ad9bfb83a1609168071ae144e6" style="width: 100.0%; height: 100.0%;">Covered: OMMELANDER ZIEKENHUIS GROEP (DELFZICHT)</div>`)[0];
+                popup_134a9f9b81a77cbf68fcaa4b58c77464.setContent(html_fa0081ad9bfb83a1609168071ae144e6);
+            
+        
+
+        circle_marker_4d760d802ca7a7343d2ebd1803173274.bindPopup(popup_134a9f9b81a77cbf68fcaa4b58c77464)
+        ;
+
+        
+    
+    
+            var poly_line_315b50d90f0c11bcb1fdbabe3956fef6 = L.polyline(
+                [[53.3265075, 6.9043681], [53.1829634, 6.9593124]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_0294b5bc6cf43863a6a22b068398a133 = L.circleMarker(
+                [53.1461161, 7.0367074],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_0d75b16e3d0ab5dd75f2be7ff0a51a4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe60bdf3da94a122f153773a6cdb974b = $(`<div id="html_fe60bdf3da94a122f153773a6cdb974b" style="width: 100.0%; height: 100.0%;">Covered: OMMELANDER ZIEKENHUIS GROEP (LUCAS)</div>`)[0];
+                popup_0d75b16e3d0ab5dd75f2be7ff0a51a4d.setContent(html_fe60bdf3da94a122f153773a6cdb974b);
+            
+        
+
+        circle_marker_0294b5bc6cf43863a6a22b068398a133.bindPopup(popup_0d75b16e3d0ab5dd75f2be7ff0a51a4d)
+        ;
+
+        
+    
+    
+            var poly_line_55ac7c8245c99ce763c70f262e805a80 = L.polyline(
+                [[53.1461161, 7.0367074], [53.1829634, 6.9593124]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var marker_cd1411254e0e0369d06d8da51707e6bc = L.marker(
+                [52.6909404, 6.21742],
+                {
+}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var icon_e36eef7c34017dbfcc02bea4f244ba87 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_528fd28dbfff7c38a3f8e7613b8e458b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9622daae9e691929118c1eeef4905759 = $(`<div id="html_9622daae9e691929118c1eeef4905759" style="width: 100.0%; height: 100.0%;">Blood Center: DIAKONESSENHUIS (MEPPEL)</div>`)[0];
+                popup_528fd28dbfff7c38a3f8e7613b8e458b.setContent(html_9622daae9e691929118c1eeef4905759);
+            
+        
+
+        marker_cd1411254e0e0369d06d8da51707e6bc.bindPopup(popup_528fd28dbfff7c38a3f8e7613b8e458b)
+        ;
+
+        
+    
+    
+                marker_cd1411254e0e0369d06d8da51707e6bc.setIcon(icon_e36eef7c34017dbfcc02bea4f244ba87);
+            
+    
+            var circle_marker_8896d9161cabaf264434c5cb0e9b8e72 = L.circleMarker(
+                [53.099237, 6.1108537],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_d331edc376b88fcc32834ab4d16ace2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9733ae5df8dee1c6b5b00e005120f23 = $(`<div id="html_b9733ae5df8dee1c6b5b00e005120f23" style="width: 100.0%; height: 100.0%;">Covered: NIJ SMELLINGHE ZIEKENHUIS</div>`)[0];
+                popup_d331edc376b88fcc32834ab4d16ace2e.setContent(html_b9733ae5df8dee1c6b5b00e005120f23);
+            
+        
+
+        circle_marker_8896d9161cabaf264434c5cb0e9b8e72.bindPopup(popup_d331edc376b88fcc32834ab4d16ace2e)
+        ;
+
+        
+    
+    
+            var poly_line_0a86316574475c6516bb3e5cb15d1893 = L.polyline(
+                [[53.099237, 6.1108537], [53.1888721, 5.8069156]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_fdde7ff364472eb8f6298a784eeec273 = L.circleMarker(
+                [53.0019272, 6.9358116],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_38396f9c9eef53ccd2756fd552564288 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc98ed630889dc0eccf0d9fe337ec26a = $(`<div id="html_fc98ed630889dc0eccf0d9fe337ec26a" style="width: 100.0%; height: 100.0%;">Covered: REFAJA ZIEKENHUIS</div>`)[0];
+                popup_38396f9c9eef53ccd2756fd552564288.setContent(html_fc98ed630889dc0eccf0d9fe337ec26a);
+            
+        
+
+        circle_marker_fdde7ff364472eb8f6298a784eeec273.bindPopup(popup_38396f9c9eef53ccd2756fd552564288)
+        ;
+
+        
+    
+    
+            var poly_line_112149d89a7e6a1989c1fc357277480c = L.polyline(
+                [[53.0019272, 6.9358116], [53.1829634, 6.9593124]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_a0a77c8f26270823bd9d7de7d587389e = L.circleMarker(
+                [52.785673, 6.9130824],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_46b9b12feaabe08e46e25839a1588033 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d5b65a118dff75d52bf1a695ff519b3 = $(`<div id="html_1d5b65a118dff75d52bf1a695ff519b3" style="width: 100.0%; height: 100.0%;">Uncovered: SCHEPER ZIEKENHUIS</div>`)[0];
+                popup_46b9b12feaabe08e46e25839a1588033.setContent(html_1d5b65a118dff75d52bf1a695ff519b3);
+            
+        
+
+        circle_marker_a0a77c8f26270823bd9d7de7d587389e.bindPopup(popup_46b9b12feaabe08e46e25839a1588033)
+        ;
+
+        
+    
+    
+            var circle_marker_40e09e62f59c071ea81a00c445e16f3e = L.circleMarker(
+                [52.9835649, 6.5648607],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_7e2ec9aa513627de66c1270f0dde015e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6752a277fe35543f2b19e53cc1c05a6 = $(`<div id="html_e6752a277fe35543f2b19e53cc1c05a6" style="width: 100.0%; height: 100.0%;">Uncovered: WILHELMINA ZIEKENHUIS (ASSEN)</div>`)[0];
+                popup_7e2ec9aa513627de66c1270f0dde015e.setContent(html_e6752a277fe35543f2b19e53cc1c05a6);
+            
+        
+
+        circle_marker_40e09e62f59c071ea81a00c445e16f3e.bindPopup(popup_7e2ec9aa513627de66c1270f0dde015e)
+        ;
+
+        
+    
+    
+            var circle_marker_c86529369f77996d5b85a40afcf4960b = L.circleMarker(
+                [52.726787, 6.4602857],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_b9db450a004324d3db5b18e6c19ef31d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b8fe15b535a4131edb5ad55dee9a668 = $(`<div id="html_7b8fe15b535a4131edb5ad55dee9a668" style="width: 100.0%; height: 100.0%;">Covered: BETHESDA ZIEKENHUIS</div>`)[0];
+                popup_b9db450a004324d3db5b18e6c19ef31d.setContent(html_7b8fe15b535a4131edb5ad55dee9a668);
+            
+        
+
+        circle_marker_c86529369f77996d5b85a40afcf4960b.bindPopup(popup_b9db450a004324d3db5b18e6c19ef31d)
+        ;
+
+        
+    
+    
+            var poly_line_b7d5317130a1cc6df26b0f1482d410f0 = L.polyline(
+                [[52.726787, 6.4602857], [52.6909404, 6.21742]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_1a95ba9d808cae65baff9ebe427c2b25 = L.circleMarker(
+                [53.320354, 5.9917755],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_4a67df16e256190d11d1139b0236fef0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4015556f8c7fbad55fafb8a1e9ee4a7 = $(`<div id="html_c4015556f8c7fbad55fafb8a1e9ee4a7" style="width: 100.0%; height: 100.0%;">Covered: TALMA SIONSBERG ZIEKENHUIS</div>`)[0];
+                popup_4a67df16e256190d11d1139b0236fef0.setContent(html_c4015556f8c7fbad55fafb8a1e9ee4a7);
+            
+        
+
+        circle_marker_1a95ba9d808cae65baff9ebe427c2b25.bindPopup(popup_4a67df16e256190d11d1139b0236fef0)
+        ;
+
+        
+    
+    
+            var poly_line_99b849cc76231e61cf1bc19249a66582 = L.polyline(
+                [[53.320354, 5.9917755], [53.1888721, 5.8069156]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_d038324dfb4a73a13cf56e039403a7be = L.circleMarker(
+                [52.26132305, 6.191653692279623],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_e0721b7f35d926d9a5574420a058924e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87de5f3d106632212ce2f657c661d916 = $(`<div id="html_87de5f3d106632212ce2f657c661d916" style="width: 100.0%; height: 100.0%;">Uncovered: DEVENTER ZIEKENHUISGROEP</div>`)[0];
+                popup_e0721b7f35d926d9a5574420a058924e.setContent(html_87de5f3d106632212ce2f657c661d916);
+            
+        
+
+        circle_marker_d038324dfb4a73a13cf56e039403a7be.bindPopup(popup_e0721b7f35d926d9a5574420a058924e)
+        ;
+
+        
+    
+    
+            var circle_marker_835e46cd8709846fb9cda81cdb84fa33 = L.circleMarker(
+                [52.5130751, 6.124036546073073],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_0b07ef0b3274ecc33960baf876d7f6fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_295ce66ee0d010313337fbc04b768c6f = $(`<div id="html_295ce66ee0d010313337fbc04b768c6f" style="width: 100.0%; height: 100.0%;">Covered: ISALA KLINIEKEN (SOPHIA)</div>`)[0];
+                popup_0b07ef0b3274ecc33960baf876d7f6fb.setContent(html_295ce66ee0d010313337fbc04b768c6f);
+            
+        
+
+        circle_marker_835e46cd8709846fb9cda81cdb84fa33.bindPopup(popup_0b07ef0b3274ecc33960baf876d7f6fb)
+        ;
+
+        
+    
+    
+            var poly_line_fe52bfc328c84138f4e3e6a688599245 = L.polyline(
+                [[52.5130751, 6.124036546073073], [52.6909404, 6.21742]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_8f32d8a99feb00519317d628ee8f90dd = L.circleMarker(
+                [52.509217, 6.097986],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_8e0a7a0f5e66580fab3ec7ff17fd68a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76151b6729b4c5aa9bda2cae9b514c71 = $(`<div id="html_76151b6729b4c5aa9bda2cae9b514c71" style="width: 100.0%; height: 100.0%;">Covered: ISALA KLINIEKEN (WEEZENLANDEN)</div>`)[0];
+                popup_8e0a7a0f5e66580fab3ec7ff17fd68a1.setContent(html_76151b6729b4c5aa9bda2cae9b514c71);
+            
+        
+
+        circle_marker_8f32d8a99feb00519317d628ee8f90dd.bindPopup(popup_8e0a7a0f5e66580fab3ec7ff17fd68a1)
+        ;
+
+        
+    
+    
+            var poly_line_0046d45b09e04ff2b4b60d3d2ddb6c05 = L.polyline(
+                [[52.509217, 6.097986], [52.6909404, 6.21742]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_557a64f0cb06b850c705e5e515549400 = L.circleMarker(
+                [52.18138485, 5.947164391033272],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_44eb6e5133a305c72d66aaec1a3ad8d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bfafddeb8261b6e3bf89bf6bfb02925 = $(`<div id="html_5bfafddeb8261b6e3bf89bf6bfb02925" style="width: 100.0%; height: 100.0%;">Uncovered: GELRE ZIEKENHUIZEN (APELDOORN)</div>`)[0];
+                popup_44eb6e5133a305c72d66aaec1a3ad8d4.setContent(html_5bfafddeb8261b6e3bf89bf6bfb02925);
+            
+        
+
+        circle_marker_557a64f0cb06b850c705e5e515549400.bindPopup(popup_44eb6e5133a305c72d66aaec1a3ad8d4)
+        ;
+
+        
+    
+    
+            var circle_marker_ce9fb5bf0cdb5f027d681fb33eb33f9b = L.circleMarker(
+                [52.12486, 6.22029],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_95b2cca212afa70fb119fa8cb7374b8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5a27dba82a583dfd03c485d6c4323d9 = $(`<div id="html_a5a27dba82a583dfd03c485d6c4323d9" style="width: 100.0%; height: 100.0%;">Uncovered: GELRE ZIEKENHUIZEN (ZUTPHEN)</div>`)[0];
+                popup_95b2cca212afa70fb119fa8cb7374b8e.setContent(html_a5a27dba82a583dfd03c485d6c4323d9);
+            
+        
+
+        circle_marker_ce9fb5bf0cdb5f027d681fb33eb33f9b.bindPopup(popup_95b2cca212afa70fb119fa8cb7374b8e)
+        ;
+
+        
+    
+    
+            var circle_marker_a54d5f82586dbfc30979f5a3af211c80 = L.circleMarker(
+                [52.5700222, 6.6329944],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_a26959d9fdee2755ae8735491e40bea5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50e3c1333ad00c4333168831995f9b87 = $(`<div id="html_50e3c1333ad00c4333168831995f9b87" style="width: 100.0%; height: 100.0%;">Uncovered: SAXENBURGH GROEP RÖPKE-ZWEERS ZIEKENHUIS</div>`)[0];
+                popup_a26959d9fdee2755ae8735491e40bea5.setContent(html_50e3c1333ad00c4333168831995f9b87);
+            
+        
+
+        circle_marker_a54d5f82586dbfc30979f5a3af211c80.bindPopup(popup_a26959d9fdee2755ae8735491e40bea5)
+        ;
+
+        
+    
+    
+            var circle_marker_23acf37938e1e427492a96dac7434f7f = L.circleMarker(
+                [52.3419997, 5.6160918],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_980795350045fe31179d3ab72e9bf111 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07e8429ebb602c872aa261c5b08046ad = $(`<div id="html_07e8429ebb602c872aa261c5b08046ad" style="width: 100.0%; height: 100.0%;">Uncovered: ST JANSDAL ZIEKENHUIS (HARDERWIJK)</div>`)[0];
+                popup_980795350045fe31179d3ab72e9bf111.setContent(html_07e8429ebb602c872aa261c5b08046ad);
+            
+        
+
+        circle_marker_23acf37938e1e427492a96dac7434f7f.bindPopup(popup_980795350045fe31179d3ab72e9bf111)
+        ;
+
+        
+    
+    
+            var circle_marker_97c157880c73cb15f20f53786e6f3a96 = L.circleMarker(
+                [52.2174163, 6.8908887],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_2d6c734e34ff14fba63ab4098961e106 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36de7caede1f1357fdb1265feb8dd595 = $(`<div id="html_36de7caede1f1357fdb1265feb8dd595" style="width: 100.0%; height: 100.0%;">Uncovered: MEDISCH SPECTRUM TWENTE</div>`)[0];
+                popup_2d6c734e34ff14fba63ab4098961e106.setContent(html_36de7caede1f1357fdb1265feb8dd595);
+            
+        
+
+        circle_marker_97c157880c73cb15f20f53786e6f3a96.bindPopup(popup_2d6c734e34ff14fba63ab4098961e106)
+        ;
+
+        
+    
+    
+            var circle_marker_e96f713c86ff1d04bceb9f97330161d6 = L.circleMarker(
+                [51.9792065, 6.7023812],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_ee925639eb22d66bcf7b96d9858dbc51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c8cf7cb76a1d41bbe47dcc96d7f9197 = $(`<div id="html_8c8cf7cb76a1d41bbe47dcc96d7f9197" style="width: 100.0%; height: 100.0%;">Uncovered: SKB  WINTERSWIJK</div>`)[0];
+                popup_ee925639eb22d66bcf7b96d9858dbc51.setContent(html_8c8cf7cb76a1d41bbe47dcc96d7f9197);
+            
+        
+
+        circle_marker_e96f713c86ff1d04bceb9f97330161d6.bindPopup(popup_ee925639eb22d66bcf7b96d9858dbc51)
+        ;
+
+        
+    
+    
+            var circle_marker_26ccc574b0679eb3e4ea058451c7c757 = L.circleMarker(
+                [52.3385294, 6.6429899500000005],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_0478b9c8992ab435217c1aafeea9b66b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90c14af6391744fbb078b5daabdcb48e = $(`<div id="html_90c14af6391744fbb078b5daabdcb48e" style="width: 100.0%; height: 100.0%;">Uncovered: ZGT (ALMELO)</div>`)[0];
+                popup_0478b9c8992ab435217c1aafeea9b66b.setContent(html_90c14af6391744fbb078b5daabdcb48e);
+            
+        
+
+        circle_marker_26ccc574b0679eb3e4ea058451c7c757.bindPopup(popup_0478b9c8992ab435217c1aafeea9b66b)
+        ;
+
+        
+    
+    
+            var circle_marker_fcb5e45b1863ebaa3162e6fe14db7ec4 = L.circleMarker(
+                [52.0800905, 4.8918902],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_64adf71efa4e57da777127d4f318d931 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1c778e13bd4b8a1f780837fb6066529 = $(`<div id="html_b1c778e13bd4b8a1f780837fb6066529" style="width: 100.0%; height: 100.0%;">Covered: ANTONIUS ZIEKENHUIS (WOERDEN)</div>`)[0];
+                popup_64adf71efa4e57da777127d4f318d931.setContent(html_b1c778e13bd4b8a1f780837fb6066529);
+            
+        
+
+        circle_marker_fcb5e45b1863ebaa3162e6fe14db7ec4.bindPopup(popup_64adf71efa4e57da777127d4f318d931)
+        ;
+
+        
+    
+    
+            var poly_line_f6b0764e97bb9b7ade5397df2611029f = L.polyline(
+                [[52.0800905, 4.8918902], [52.0245389, 5.0825088]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_4fc9cf56d23356574d56270bad6f1d8c = L.circleMarker(
+                [52.1539769, 5.2045583],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_2e9600b1cfb905653ab941a478e3da57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_027da714a2089574aa43911592718661 = $(`<div id="html_027da714a2089574aa43911592718661" style="width: 100.0%; height: 100.0%;">Covered: ALEXANDER MONRO ZIEKENHUIS</div>`)[0];
+                popup_2e9600b1cfb905653ab941a478e3da57.setContent(html_027da714a2089574aa43911592718661);
+            
+        
+
+        circle_marker_4fc9cf56d23356574d56270bad6f1d8c.bindPopup(popup_2e9600b1cfb905653ab941a478e3da57)
+        ;
+
+        
+    
+    
+            var poly_line_4ebca482d1f11b7c6a507b0cb953fff8 = L.polyline(
+                [[52.1539769, 5.2045583], [52.0245389, 5.0825088]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_6780f25f340e3386be9a7a08983b635c = L.circleMarker(
+                [52.1433504, 4.6621352],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_33191b3ec89814237071b51c426f75a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc48848122d51f93eaa8ffe6477c9979 = $(`<div id="html_dc48848122d51f93eaa8ffe6477c9979" style="width: 100.0%; height: 100.0%;">Covered: ALRIJNE ZIEKENHUIS (ALPHEN)</div>`)[0];
+                popup_33191b3ec89814237071b51c426f75a6.setContent(html_dc48848122d51f93eaa8ffe6477c9979);
+            
+        
+
+        circle_marker_6780f25f340e3386be9a7a08983b635c.bindPopup(popup_33191b3ec89814237071b51c426f75a6)
+        ;
+
+        
+    
+    
+            var poly_line_1469f0310b002e68c491fa2fc1796fbf = L.polyline(
+                [[52.1433504, 4.6621352], [52.0925754, 4.3834479]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_eb62a22affe7779f8e7c3f5485e31dd5 = L.circleMarker(
+                [52.2295928, 4.5243287],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_7fc0cf47f5b361ce1e291ad4ed8a93ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fc971e5eeb04c461a45c40d03268893 = $(`<div id="html_2fc971e5eeb04c461a45c40d03268893" style="width: 100.0%; height: 100.0%;">Covered: ALRIJNE ZIEKENHUIS (SASSENHEIM)</div>`)[0];
+                popup_7fc0cf47f5b361ce1e291ad4ed8a93ea.setContent(html_2fc971e5eeb04c461a45c40d03268893);
+            
+        
+
+        circle_marker_eb62a22affe7779f8e7c3f5485e31dd5.bindPopup(popup_7fc0cf47f5b361ce1e291ad4ed8a93ea)
+        ;
+
+        
+    
+    
+            var poly_line_f566f7dff186d07a09b95cb4f5f1fb34 = L.polyline(
+                [[52.2295928, 4.5243287], [52.0925754, 4.3834479]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_07be3b162f894e6a4d64a338b0727daa = L.circleMarker(
+                [52.1997687, 4.4046549],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_7e29d6e784b00665375905e19cd3feef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb7d8a0b78ea3dd7b36f6edc475ac77b = $(`<div id="html_bb7d8a0b78ea3dd7b36f6edc475ac77b" style="width: 100.0%; height: 100.0%;">Covered: ALRIJNE ZIEKENHUIS (KATWIJK)</div>`)[0];
+                popup_7e29d6e784b00665375905e19cd3feef.setContent(html_bb7d8a0b78ea3dd7b36f6edc475ac77b);
+            
+        
+
+        circle_marker_07be3b162f894e6a4d64a338b0727daa.bindPopup(popup_7e29d6e784b00665375905e19cd3feef)
+        ;
+
+        
+    
+    
+            var poly_line_879076b848a409e4be714fd1c69da212 = L.polyline(
+                [[52.1997687, 4.4046549], [52.0925754, 4.3834479]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var marker_9fa5235e9f80475436a1d3111be22658 = L.marker(
+                [53.1829634, 6.9593124],
+                {
+}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var icon_c34fa24036ddfd37169d42383cbfa8aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_553c8eec5100fecc4b7908877273ef7b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eff9e63d9f921b3288fe05aa5ed3766c = $(`<div id="html_eff9e63d9f921b3288fe05aa5ed3766c" style="width: 100.0%; height: 100.0%;">Blood Center: OMMELANDER ZIEKENHUIS GROEP (GRONINGEN)</div>`)[0];
+                popup_553c8eec5100fecc4b7908877273ef7b.setContent(html_eff9e63d9f921b3288fe05aa5ed3766c);
+            
+        
+
+        marker_9fa5235e9f80475436a1d3111be22658.bindPopup(popup_553c8eec5100fecc4b7908877273ef7b)
+        ;
+
+        
+    
+    
+                marker_9fa5235e9f80475436a1d3111be22658.setIcon(icon_c34fa24036ddfd37169d42383cbfa8aa);
+            
+    
+            var circle_marker_b10fd1c519af3abae454de6f028486b9 = L.circleMarker(
+                [51.99736855, 4.3376095462054],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_d69b34748d590d706ba93f0e7c226312 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4242186b94a72c6c5d5b0df46b2853ac = $(`<div id="html_4242186b94a72c6c5d5b0df46b2853ac" style="width: 100.0%; height: 100.0%;">Covered: HAGA ZIEKENHUIS (REINIER)</div>`)[0];
+                popup_d69b34748d590d706ba93f0e7c226312.setContent(html_4242186b94a72c6c5d5b0df46b2853ac);
+            
+        
+
+        circle_marker_b10fd1c519af3abae454de6f028486b9.bindPopup(popup_d69b34748d590d706ba93f0e7c226312)
+        ;
+
+        
+    
+    
+            var poly_line_4b7cdaa9f21d2b26fab78a2decf5c59b = L.polyline(
+                [[51.99736855, 4.3376095462054], [52.0925754, 4.3834479]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+            var circle_marker_9806b3511e2e65302e082c7928ba41c6 = L.circleMarker(
+                [52.2637546, 6.7700251],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_1144496bf70469e61a691ac8963647a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21bf9d6a68016c18566bbad8ec0588f9 = $(`<div id="html_21bf9d6a68016c18566bbad8ec0588f9" style="width: 100.0%; height: 100.0%;">Uncovered: ZGT (HENGELO)</div>`)[0];
+                popup_1144496bf70469e61a691ac8963647a1.setContent(html_21bf9d6a68016c18566bbad8ec0588f9);
+            
+        
+
+        circle_marker_9806b3511e2e65302e082c7928ba41c6.bindPopup(popup_1144496bf70469e61a691ac8963647a1)
+        ;
+
+        
+    
+    
+            var circle_marker_c2c458a4bcc2dd1a81cd2cadb634967d = L.circleMarker(
+                [52.0898838, 5.1833223],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+    
+        var popup_b4a9919d150ac5345a1f3ee4e7b9edb5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c683ab877d0ea6b46865a3bf11e839a4 = $(`<div id="html_c683ab877d0ea6b46865a3bf11e839a4" style="width: 100.0%; height: 100.0%;">Covered: PRINSES MAXIMA CENTRUM</div>`)[0];
+                popup_b4a9919d150ac5345a1f3ee4e7b9edb5.setContent(html_c683ab877d0ea6b46865a3bf11e839a4);
+            
+        
+
+        circle_marker_c2c458a4bcc2dd1a81cd2cadb634967d.bindPopup(popup_b4a9919d150ac5345a1f3ee4e7b9edb5)
+        ;
+
+        
+    
+    
+            var poly_line_4363e35787c76bca35901682050cac26 = L.polyline(
+                [[52.0898838, 5.1833223], [52.0245389, 5.0825088]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_a28fcf6d3e95ea972e40a866376514c8);
+        
+</script>
+</html>
